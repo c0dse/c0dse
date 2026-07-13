@@ -1,6 +1,6 @@
 ### Hi, I'm c0dse
 
-Software engineer at [GeoCat](https://www.geocat.net), based in Utrecht. I mostly do backend and web work.
+Software engineer at [GeoCat](https://www.geocat.net), based in Wageningen. I mostly do backend and web work.
 
 I also use AI coding tools a lot in my workflow (Claude Code, Codex), mainly for refactors, tests, and the repetitive parts.
 
