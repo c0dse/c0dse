@@ -6,8 +6,7 @@
   alt="c0dse Developer Signal: weekly public contribution velocity, activity metrics and 28-day change"
 />
 
-<br><br>
-
+<br>
 <img
   src="./work-mix.svg"
   width="360"
