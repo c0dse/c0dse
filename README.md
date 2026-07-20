@@ -8,19 +8,11 @@
 
 <br><br>
 
-<sub>Not another contribution grid: this turns public activity into weekly velocity, streaks and momentum. Regenerated daily.</sub>
-
-<br><br>
-
 <img
   src="./work-ledger.svg"
   width="860"
   alt="c0dse Work Ledger: anonymous 90-day work mix and shipping totals compared with the prior 90 days"
 />
-
-<br><br>
-
-<sub>Anonymous aggregate snapshot. Repository names, organizations and work-item details are intentionally omitted.</sub>
 
 <br><br>
 
