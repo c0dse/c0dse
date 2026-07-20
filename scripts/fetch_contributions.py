@@ -131,7 +131,8 @@ def build_payload(username: str, parser: ContributionParser) -> dict[str, object
     return {
         "username": username,
         "source": f"https://github.com/users/{username}/contributions",
-        "fetched_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        # Date precision keeps repeat runs on the same day idempotent.
+        "fetched_on": datetime.now(timezone.utc).date().isoformat(),
         "range": {
             "from": parsed_days[0]["date"],
             "to": parsed_days[-1]["date"],
