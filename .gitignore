@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Keep original portrait material local if one is added later.
+source-photo.*
+source-prepped.png

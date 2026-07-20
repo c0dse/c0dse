@@ -1,15 +1,30 @@
-### Hi, I'm c0dse
+<div align="center">
 
-Software engineer at [GeoCat](https://www.geocat.net), based in Wageningen. I mostly do backend and web work.
+<h3><code>c0dse@github ~ $ ./activity.sh</code></h3>
 
-I also use AI coding tools a lot in my workflow (Claude Code, Codex), mainly for refactors, tests, and the repetitive parts.
+<img src="./contribution-heatmap.svg" width="860" alt="c0dse's GitHub contribution activity for the last year" />
 
-**What I work with**
+<br><br>
 
-- Java and Spring
-- Python
-- PostgreSQL / PostGIS
+<h3><code>c0dse@github ~ $ whoami</code></h3>
 
-**Contact**
+<table>
+  <tr>
+    <td valign="top">
+      <img src="./code-art.svg" width="350" alt="Animated terminal artwork spelling c0dse" />
+    </td>
+    <td valign="top">
+      <img src="./info-card.svg" width="500" alt="c0dse is a software engineer at GeoCat in Wageningen, focused on backend, web and geospatial software" />
+    </td>
+  </tr>
+</table>
 
-Open an issue on one of my repos and I'll see it.
+<br>
+
+<sub>Java · Spring · Python · PostgreSQL · PostGIS</sub>
+
+<br><br>
+
+<sub>Want to get in touch? Open an issue on one of my repositories.</sub>
+
+</div>

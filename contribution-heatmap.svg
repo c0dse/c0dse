@@ -1,0 +1,493 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="210"
+  viewBox="0 0 860 210" role="img" aria-labelledby="title description">
+  <title id="title">c0dse&#x27;s contribution activity</title>
+  <desc id="description">481 contributions in the last year. Current streak: 1 day. Longest streak: 10 days.</desc>
+  <style>
+    text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    }
+    .heading { fill: #f0f6fc; font-size: 14px; font-weight: 600; }
+    .prompt { fill: #7ee787; }
+    .label { fill: #8b949e; font-size: 10px; }
+    .stat { fill: #8b949e; font-size: 11px; }
+    .cell {
+      opacity: 0;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: reveal 0.34s cubic-bezier(.2,.8,.2,1) forwards;
+    }
+    .level-0 { fill: #21262d; }
+    .level-1 { fill: #0e4429; }
+    .level-2 { fill: #006d32; }
+    .level-3 { fill: #26a641; }
+    .level-4 { fill: #39d353; }
+      .delay-0 { animation-delay: 0.120s; }
+      .delay-1 { animation-delay: 0.138s; }
+      .delay-2 { animation-delay: 0.156s; }
+      .delay-3 { animation-delay: 0.174s; }
+      .delay-4 { animation-delay: 0.192s; }
+      .delay-5 { animation-delay: 0.210s; }
+      .delay-6 { animation-delay: 0.228s; }
+      .delay-7 { animation-delay: 0.246s; }
+      .delay-8 { animation-delay: 0.264s; }
+      .delay-9 { animation-delay: 0.282s; }
+      .delay-10 { animation-delay: 0.300s; }
+      .delay-11 { animation-delay: 0.318s; }
+      .delay-12 { animation-delay: 0.336s; }
+      .delay-13 { animation-delay: 0.354s; }
+      .delay-14 { animation-delay: 0.372s; }
+      .delay-15 { animation-delay: 0.390s; }
+      .delay-16 { animation-delay: 0.408s; }
+      .delay-17 { animation-delay: 0.426s; }
+      .delay-18 { animation-delay: 0.444s; }
+      .delay-19 { animation-delay: 0.462s; }
+      .delay-20 { animation-delay: 0.480s; }
+      .delay-21 { animation-delay: 0.498s; }
+      .delay-22 { animation-delay: 0.516s; }
+      .delay-23 { animation-delay: 0.534s; }
+      .delay-24 { animation-delay: 0.552s; }
+      .delay-25 { animation-delay: 0.570s; }
+      .delay-26 { animation-delay: 0.588s; }
+      .delay-27 { animation-delay: 0.606s; }
+      .delay-28 { animation-delay: 0.624s; }
+      .delay-29 { animation-delay: 0.642s; }
+      .delay-30 { animation-delay: 0.660s; }
+      .delay-31 { animation-delay: 0.678s; }
+      .delay-32 { animation-delay: 0.696s; }
+      .delay-33 { animation-delay: 0.714s; }
+      .delay-34 { animation-delay: 0.732s; }
+      .delay-35 { animation-delay: 0.750s; }
+      .delay-36 { animation-delay: 0.768s; }
+      .delay-37 { animation-delay: 0.786s; }
+      .delay-38 { animation-delay: 0.804s; }
+      .delay-39 { animation-delay: 0.822s; }
+      .delay-40 { animation-delay: 0.840s; }
+      .delay-41 { animation-delay: 0.858s; }
+      .delay-42 { animation-delay: 0.876s; }
+      .delay-43 { animation-delay: 0.894s; }
+      .delay-44 { animation-delay: 0.912s; }
+      .delay-45 { animation-delay: 0.930s; }
+      .delay-46 { animation-delay: 0.948s; }
+      .delay-47 { animation-delay: 0.966s; }
+      .delay-48 { animation-delay: 0.984s; }
+      .delay-49 { animation-delay: 1.002s; }
+      .delay-50 { animation-delay: 1.020s; }
+      .delay-51 { animation-delay: 1.038s; }
+      .delay-52 { animation-delay: 1.056s; }
+      .delay-53 { animation-delay: 1.074s; }
+      .delay-54 { animation-delay: 1.092s; }
+      .delay-55 { animation-delay: 1.110s; }
+      .delay-56 { animation-delay: 1.128s; }
+      .delay-57 { animation-delay: 1.146s; }
+      .delay-58 { animation-delay: 1.164s; }
+      .delay-59 { animation-delay: 1.182s; }
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(-7px) scale(.72); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cell { animation: none; opacity: 1; transform: none; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="859" height="209" rx="14"
+    fill="#0d1117" stroke="#30363d" />
+  <circle cx="19" cy="20" r="4" fill="#ff7b72" />
+  <circle cx="32" cy="20" r="4" fill="#d29922" />
+  <circle cx="45" cy="20" r="4" fill="#3fb950" />
+  <text class="heading" x="60" y="25"><tspan class="prompt">$</tspan> git activity --year</text>
+
+    <text class="label" x="60" y="38">Jul</text>
+    <text class="label" x="144" y="38">Sep</text>
+    <text class="label" x="200" y="38">Oct</text>
+    <text class="label" x="256" y="38">Nov</text>
+    <text class="label" x="326" y="38">Dec</text>
+    <text class="label" x="382" y="38">Jan</text>
+    <text class="label" x="452" y="38">Feb</text>
+    <text class="label" x="508" y="38">Mar</text>
+    <text class="label" x="564" y="38">Apr</text>
+    <text class="label" x="620" y="38">May</text>
+    <text class="label" x="690" y="38">Jun</text>
+    <text class="label" x="746" y="38">Jul</text>
+  <text class="label" x="24" y="70">Mon</text>
+  <text class="label" x="24" y="98">Wed</text>
+  <text class="label" x="24" y="126">Fri</text>
+
+    <rect class="cell level-0 delay-0" x="60" y="47" width="11" height="11" rx="2" aria-label="2025-07-20: 0 contributions" />
+    <rect class="cell level-0 delay-1" x="60" y="61" width="11" height="11" rx="2" aria-label="2025-07-21: 0 contributions" />
+    <rect class="cell level-0 delay-2" x="60" y="75" width="11" height="11" rx="2" aria-label="2025-07-22: 0 contributions" />
+    <rect class="cell level-0 delay-3" x="60" y="89" width="11" height="11" rx="2" aria-label="2025-07-23: 0 contributions" />
+    <rect class="cell level-0 delay-4" x="60" y="103" width="11" height="11" rx="2" aria-label="2025-07-24: 0 contributions" />
+    <rect class="cell level-0 delay-5" x="60" y="117" width="11" height="11" rx="2" aria-label="2025-07-25: 0 contributions" />
+    <rect class="cell level-0 delay-6" x="60" y="131" width="11" height="11" rx="2" aria-label="2025-07-26: 0 contributions" />
+    <rect class="cell level-0 delay-1" x="74" y="47" width="11" height="11" rx="2" aria-label="2025-07-27: 0 contributions" />
+    <rect class="cell level-0 delay-2" x="74" y="61" width="11" height="11" rx="2" aria-label="2025-07-28: 0 contributions" />
+    <rect class="cell level-0 delay-3" x="74" y="75" width="11" height="11" rx="2" aria-label="2025-07-29: 0 contributions" />
+    <rect class="cell level-0 delay-4" x="74" y="89" width="11" height="11" rx="2" aria-label="2025-07-30: 0 contributions" />
+    <rect class="cell level-0 delay-5" x="74" y="103" width="11" height="11" rx="2" aria-label="2025-07-31: 0 contributions" />
+    <rect class="cell level-0 delay-6" x="74" y="117" width="11" height="11" rx="2" aria-label="2025-08-01: 0 contributions" />
+    <rect class="cell level-0 delay-7" x="74" y="131" width="11" height="11" rx="2" aria-label="2025-08-02: 0 contributions" />
+    <rect class="cell level-0 delay-2" x="88" y="47" width="11" height="11" rx="2" aria-label="2025-08-03: 0 contributions" />
+    <rect class="cell level-0 delay-3" x="88" y="61" width="11" height="11" rx="2" aria-label="2025-08-04: 0 contributions" />
+    <rect class="cell level-0 delay-4" x="88" y="75" width="11" height="11" rx="2" aria-label="2025-08-05: 0 contributions" />
+    <rect class="cell level-0 delay-5" x="88" y="89" width="11" height="11" rx="2" aria-label="2025-08-06: 0 contributions" />
+    <rect class="cell level-0 delay-6" x="88" y="103" width="11" height="11" rx="2" aria-label="2025-08-07: 0 contributions" />
+    <rect class="cell level-0 delay-7" x="88" y="117" width="11" height="11" rx="2" aria-label="2025-08-08: 0 contributions" />
+    <rect class="cell level-0 delay-8" x="88" y="131" width="11" height="11" rx="2" aria-label="2025-08-09: 0 contributions" />
+    <rect class="cell level-0 delay-3" x="102" y="47" width="11" height="11" rx="2" aria-label="2025-08-10: 0 contributions" />
+    <rect class="cell level-0 delay-4" x="102" y="61" width="11" height="11" rx="2" aria-label="2025-08-11: 0 contributions" />
+    <rect class="cell level-0 delay-5" x="102" y="75" width="11" height="11" rx="2" aria-label="2025-08-12: 0 contributions" />
+    <rect class="cell level-0 delay-6" x="102" y="89" width="11" height="11" rx="2" aria-label="2025-08-13: 0 contributions" />
+    <rect class="cell level-0 delay-7" x="102" y="103" width="11" height="11" rx="2" aria-label="2025-08-14: 0 contributions" />
+    <rect class="cell level-0 delay-8" x="102" y="117" width="11" height="11" rx="2" aria-label="2025-08-15: 0 contributions" />
+    <rect class="cell level-0 delay-9" x="102" y="131" width="11" height="11" rx="2" aria-label="2025-08-16: 0 contributions" />
+    <rect class="cell level-0 delay-4" x="116" y="47" width="11" height="11" rx="2" aria-label="2025-08-17: 0 contributions" />
+    <rect class="cell level-0 delay-5" x="116" y="61" width="11" height="11" rx="2" aria-label="2025-08-18: 0 contributions" />
+    <rect class="cell level-0 delay-6" x="116" y="75" width="11" height="11" rx="2" aria-label="2025-08-19: 0 contributions" />
+    <rect class="cell level-0 delay-7" x="116" y="89" width="11" height="11" rx="2" aria-label="2025-08-20: 0 contributions" />
+    <rect class="cell level-0 delay-8" x="116" y="103" width="11" height="11" rx="2" aria-label="2025-08-21: 0 contributions" />
+    <rect class="cell level-0 delay-9" x="116" y="117" width="11" height="11" rx="2" aria-label="2025-08-22: 0 contributions" />
+    <rect class="cell level-0 delay-10" x="116" y="131" width="11" height="11" rx="2" aria-label="2025-08-23: 0 contributions" />
+    <rect class="cell level-0 delay-5" x="130" y="47" width="11" height="11" rx="2" aria-label="2025-08-24: 0 contributions" />
+    <rect class="cell level-0 delay-6" x="130" y="61" width="11" height="11" rx="2" aria-label="2025-08-25: 0 contributions" />
+    <rect class="cell level-0 delay-7" x="130" y="75" width="11" height="11" rx="2" aria-label="2025-08-26: 0 contributions" />
+    <rect class="cell level-0 delay-8" x="130" y="89" width="11" height="11" rx="2" aria-label="2025-08-27: 0 contributions" />
+    <rect class="cell level-0 delay-9" x="130" y="103" width="11" height="11" rx="2" aria-label="2025-08-28: 0 contributions" />
+    <rect class="cell level-0 delay-10" x="130" y="117" width="11" height="11" rx="2" aria-label="2025-08-29: 0 contributions" />
+    <rect class="cell level-0 delay-11" x="130" y="131" width="11" height="11" rx="2" aria-label="2025-08-30: 0 contributions" />
+    <rect class="cell level-0 delay-6" x="144" y="47" width="11" height="11" rx="2" aria-label="2025-08-31: 0 contributions" />
+    <rect class="cell level-0 delay-7" x="144" y="61" width="11" height="11" rx="2" aria-label="2025-09-01: 0 contributions" />
+    <rect class="cell level-0 delay-8" x="144" y="75" width="11" height="11" rx="2" aria-label="2025-09-02: 0 contributions" />
+    <rect class="cell level-0 delay-9" x="144" y="89" width="11" height="11" rx="2" aria-label="2025-09-03: 0 contributions" />
+    <rect class="cell level-0 delay-10" x="144" y="103" width="11" height="11" rx="2" aria-label="2025-09-04: 0 contributions" />
+    <rect class="cell level-0 delay-11" x="144" y="117" width="11" height="11" rx="2" aria-label="2025-09-05: 0 contributions" />
+    <rect class="cell level-0 delay-12" x="144" y="131" width="11" height="11" rx="2" aria-label="2025-09-06: 0 contributions" />
+    <rect class="cell level-0 delay-7" x="158" y="47" width="11" height="11" rx="2" aria-label="2025-09-07: 0 contributions" />
+    <rect class="cell level-0 delay-8" x="158" y="61" width="11" height="11" rx="2" aria-label="2025-09-08: 0 contributions" />
+    <rect class="cell level-0 delay-9" x="158" y="75" width="11" height="11" rx="2" aria-label="2025-09-09: 0 contributions" />
+    <rect class="cell level-0 delay-10" x="158" y="89" width="11" height="11" rx="2" aria-label="2025-09-10: 0 contributions" />
+    <rect class="cell level-0 delay-11" x="158" y="103" width="11" height="11" rx="2" aria-label="2025-09-11: 0 contributions" />
+    <rect class="cell level-0 delay-12" x="158" y="117" width="11" height="11" rx="2" aria-label="2025-09-12: 0 contributions" />
+    <rect class="cell level-0 delay-13" x="158" y="131" width="11" height="11" rx="2" aria-label="2025-09-13: 0 contributions" />
+    <rect class="cell level-0 delay-8" x="172" y="47" width="11" height="11" rx="2" aria-label="2025-09-14: 0 contributions" />
+    <rect class="cell level-0 delay-9" x="172" y="61" width="11" height="11" rx="2" aria-label="2025-09-15: 0 contributions" />
+    <rect class="cell level-0 delay-10" x="172" y="75" width="11" height="11" rx="2" aria-label="2025-09-16: 0 contributions" />
+    <rect class="cell level-0 delay-11" x="172" y="89" width="11" height="11" rx="2" aria-label="2025-09-17: 0 contributions" />
+    <rect class="cell level-0 delay-12" x="172" y="103" width="11" height="11" rx="2" aria-label="2025-09-18: 0 contributions" />
+    <rect class="cell level-0 delay-13" x="172" y="117" width="11" height="11" rx="2" aria-label="2025-09-19: 0 contributions" />
+    <rect class="cell level-0 delay-14" x="172" y="131" width="11" height="11" rx="2" aria-label="2025-09-20: 0 contributions" />
+    <rect class="cell level-0 delay-9" x="186" y="47" width="11" height="11" rx="2" aria-label="2025-09-21: 0 contributions" />
+    <rect class="cell level-0 delay-10" x="186" y="61" width="11" height="11" rx="2" aria-label="2025-09-22: 0 contributions" />
+    <rect class="cell level-0 delay-11" x="186" y="75" width="11" height="11" rx="2" aria-label="2025-09-23: 0 contributions" />
+    <rect class="cell level-0 delay-12" x="186" y="89" width="11" height="11" rx="2" aria-label="2025-09-24: 0 contributions" />
+    <rect class="cell level-0 delay-13" x="186" y="103" width="11" height="11" rx="2" aria-label="2025-09-25: 0 contributions" />
+    <rect class="cell level-0 delay-14" x="186" y="117" width="11" height="11" rx="2" aria-label="2025-09-26: 0 contributions" />
+    <rect class="cell level-0 delay-15" x="186" y="131" width="11" height="11" rx="2" aria-label="2025-09-27: 0 contributions" />
+    <rect class="cell level-0 delay-10" x="200" y="47" width="11" height="11" rx="2" aria-label="2025-09-28: 0 contributions" />
+    <rect class="cell level-0 delay-11" x="200" y="61" width="11" height="11" rx="2" aria-label="2025-09-29: 0 contributions" />
+    <rect class="cell level-0 delay-12" x="200" y="75" width="11" height="11" rx="2" aria-label="2025-09-30: 0 contributions" />
+    <rect class="cell level-0 delay-13" x="200" y="89" width="11" height="11" rx="2" aria-label="2025-10-01: 0 contributions" />
+    <rect class="cell level-0 delay-14" x="200" y="103" width="11" height="11" rx="2" aria-label="2025-10-02: 0 contributions" />
+    <rect class="cell level-0 delay-15" x="200" y="117" width="11" height="11" rx="2" aria-label="2025-10-03: 0 contributions" />
+    <rect class="cell level-0 delay-16" x="200" y="131" width="11" height="11" rx="2" aria-label="2025-10-04: 0 contributions" />
+    <rect class="cell level-0 delay-11" x="214" y="47" width="11" height="11" rx="2" aria-label="2025-10-05: 0 contributions" />
+    <rect class="cell level-0 delay-12" x="214" y="61" width="11" height="11" rx="2" aria-label="2025-10-06: 0 contributions" />
+    <rect class="cell level-0 delay-13" x="214" y="75" width="11" height="11" rx="2" aria-label="2025-10-07: 0 contributions" />
+    <rect class="cell level-0 delay-14" x="214" y="89" width="11" height="11" rx="2" aria-label="2025-10-08: 0 contributions" />
+    <rect class="cell level-0 delay-15" x="214" y="103" width="11" height="11" rx="2" aria-label="2025-10-09: 0 contributions" />
+    <rect class="cell level-0 delay-16" x="214" y="117" width="11" height="11" rx="2" aria-label="2025-10-10: 0 contributions" />
+    <rect class="cell level-0 delay-17" x="214" y="131" width="11" height="11" rx="2" aria-label="2025-10-11: 0 contributions" />
+    <rect class="cell level-0 delay-12" x="228" y="47" width="11" height="11" rx="2" aria-label="2025-10-12: 0 contributions" />
+    <rect class="cell level-0 delay-13" x="228" y="61" width="11" height="11" rx="2" aria-label="2025-10-13: 0 contributions" />
+    <rect class="cell level-0 delay-14" x="228" y="75" width="11" height="11" rx="2" aria-label="2025-10-14: 0 contributions" />
+    <rect class="cell level-0 delay-15" x="228" y="89" width="11" height="11" rx="2" aria-label="2025-10-15: 0 contributions" />
+    <rect class="cell level-0 delay-16" x="228" y="103" width="11" height="11" rx="2" aria-label="2025-10-16: 0 contributions" />
+    <rect class="cell level-0 delay-17" x="228" y="117" width="11" height="11" rx="2" aria-label="2025-10-17: 0 contributions" />
+    <rect class="cell level-0 delay-18" x="228" y="131" width="11" height="11" rx="2" aria-label="2025-10-18: 0 contributions" />
+    <rect class="cell level-0 delay-13" x="242" y="47" width="11" height="11" rx="2" aria-label="2025-10-19: 0 contributions" />
+    <rect class="cell level-0 delay-14" x="242" y="61" width="11" height="11" rx="2" aria-label="2025-10-20: 0 contributions" />
+    <rect class="cell level-0 delay-15" x="242" y="75" width="11" height="11" rx="2" aria-label="2025-10-21: 0 contributions" />
+    <rect class="cell level-0 delay-16" x="242" y="89" width="11" height="11" rx="2" aria-label="2025-10-22: 0 contributions" />
+    <rect class="cell level-0 delay-17" x="242" y="103" width="11" height="11" rx="2" aria-label="2025-10-23: 0 contributions" />
+    <rect class="cell level-0 delay-18" x="242" y="117" width="11" height="11" rx="2" aria-label="2025-10-24: 0 contributions" />
+    <rect class="cell level-0 delay-19" x="242" y="131" width="11" height="11" rx="2" aria-label="2025-10-25: 0 contributions" />
+    <rect class="cell level-0 delay-14" x="256" y="47" width="11" height="11" rx="2" aria-label="2025-10-26: 0 contributions" />
+    <rect class="cell level-0 delay-15" x="256" y="61" width="11" height="11" rx="2" aria-label="2025-10-27: 0 contributions" />
+    <rect class="cell level-0 delay-16" x="256" y="75" width="11" height="11" rx="2" aria-label="2025-10-28: 0 contributions" />
+    <rect class="cell level-0 delay-17" x="256" y="89" width="11" height="11" rx="2" aria-label="2025-10-29: 0 contributions" />
+    <rect class="cell level-0 delay-18" x="256" y="103" width="11" height="11" rx="2" aria-label="2025-10-30: 0 contributions" />
+    <rect class="cell level-0 delay-19" x="256" y="117" width="11" height="11" rx="2" aria-label="2025-10-31: 0 contributions" />
+    <rect class="cell level-0 delay-20" x="256" y="131" width="11" height="11" rx="2" aria-label="2025-11-01: 0 contributions" />
+    <rect class="cell level-0 delay-15" x="270" y="47" width="11" height="11" rx="2" aria-label="2025-11-02: 0 contributions" />
+    <rect class="cell level-0 delay-16" x="270" y="61" width="11" height="11" rx="2" aria-label="2025-11-03: 0 contributions" />
+    <rect class="cell level-0 delay-17" x="270" y="75" width="11" height="11" rx="2" aria-label="2025-11-04: 0 contributions" />
+    <rect class="cell level-0 delay-18" x="270" y="89" width="11" height="11" rx="2" aria-label="2025-11-05: 0 contributions" />
+    <rect class="cell level-0 delay-19" x="270" y="103" width="11" height="11" rx="2" aria-label="2025-11-06: 0 contributions" />
+    <rect class="cell level-0 delay-20" x="270" y="117" width="11" height="11" rx="2" aria-label="2025-11-07: 0 contributions" />
+    <rect class="cell level-0 delay-21" x="270" y="131" width="11" height="11" rx="2" aria-label="2025-11-08: 0 contributions" />
+    <rect class="cell level-0 delay-16" x="284" y="47" width="11" height="11" rx="2" aria-label="2025-11-09: 0 contributions" />
+    <rect class="cell level-0 delay-17" x="284" y="61" width="11" height="11" rx="2" aria-label="2025-11-10: 0 contributions" />
+    <rect class="cell level-0 delay-18" x="284" y="75" width="11" height="11" rx="2" aria-label="2025-11-11: 0 contributions" />
+    <rect class="cell level-0 delay-19" x="284" y="89" width="11" height="11" rx="2" aria-label="2025-11-12: 0 contributions" />
+    <rect class="cell level-0 delay-20" x="284" y="103" width="11" height="11" rx="2" aria-label="2025-11-13: 0 contributions" />
+    <rect class="cell level-0 delay-21" x="284" y="117" width="11" height="11" rx="2" aria-label="2025-11-14: 0 contributions" />
+    <rect class="cell level-0 delay-22" x="284" y="131" width="11" height="11" rx="2" aria-label="2025-11-15: 0 contributions" />
+    <rect class="cell level-0 delay-17" x="298" y="47" width="11" height="11" rx="2" aria-label="2025-11-16: 0 contributions" />
+    <rect class="cell level-0 delay-18" x="298" y="61" width="11" height="11" rx="2" aria-label="2025-11-17: 0 contributions" />
+    <rect class="cell level-0 delay-19" x="298" y="75" width="11" height="11" rx="2" aria-label="2025-11-18: 0 contributions" />
+    <rect class="cell level-0 delay-20" x="298" y="89" width="11" height="11" rx="2" aria-label="2025-11-19: 0 contributions" />
+    <rect class="cell level-0 delay-21" x="298" y="103" width="11" height="11" rx="2" aria-label="2025-11-20: 0 contributions" />
+    <rect class="cell level-0 delay-22" x="298" y="117" width="11" height="11" rx="2" aria-label="2025-11-21: 0 contributions" />
+    <rect class="cell level-0 delay-23" x="298" y="131" width="11" height="11" rx="2" aria-label="2025-11-22: 0 contributions" />
+    <rect class="cell level-0 delay-18" x="312" y="47" width="11" height="11" rx="2" aria-label="2025-11-23: 0 contributions" />
+    <rect class="cell level-0 delay-19" x="312" y="61" width="11" height="11" rx="2" aria-label="2025-11-24: 0 contributions" />
+    <rect class="cell level-0 delay-20" x="312" y="75" width="11" height="11" rx="2" aria-label="2025-11-25: 0 contributions" />
+    <rect class="cell level-0 delay-21" x="312" y="89" width="11" height="11" rx="2" aria-label="2025-11-26: 0 contributions" />
+    <rect class="cell level-0 delay-22" x="312" y="103" width="11" height="11" rx="2" aria-label="2025-11-27: 0 contributions" />
+    <rect class="cell level-0 delay-23" x="312" y="117" width="11" height="11" rx="2" aria-label="2025-11-28: 0 contributions" />
+    <rect class="cell level-0 delay-24" x="312" y="131" width="11" height="11" rx="2" aria-label="2025-11-29: 0 contributions" />
+    <rect class="cell level-0 delay-19" x="326" y="47" width="11" height="11" rx="2" aria-label="2025-11-30: 0 contributions" />
+    <rect class="cell level-0 delay-20" x="326" y="61" width="11" height="11" rx="2" aria-label="2025-12-01: 0 contributions" />
+    <rect class="cell level-0 delay-21" x="326" y="75" width="11" height="11" rx="2" aria-label="2025-12-02: 0 contributions" />
+    <rect class="cell level-0 delay-22" x="326" y="89" width="11" height="11" rx="2" aria-label="2025-12-03: 0 contributions" />
+    <rect class="cell level-0 delay-23" x="326" y="103" width="11" height="11" rx="2" aria-label="2025-12-04: 0 contributions" />
+    <rect class="cell level-0 delay-24" x="326" y="117" width="11" height="11" rx="2" aria-label="2025-12-05: 0 contributions" />
+    <rect class="cell level-0 delay-25" x="326" y="131" width="11" height="11" rx="2" aria-label="2025-12-06: 0 contributions" />
+    <rect class="cell level-0 delay-20" x="340" y="47" width="11" height="11" rx="2" aria-label="2025-12-07: 0 contributions" />
+    <rect class="cell level-0 delay-21" x="340" y="61" width="11" height="11" rx="2" aria-label="2025-12-08: 0 contributions" />
+    <rect class="cell level-0 delay-22" x="340" y="75" width="11" height="11" rx="2" aria-label="2025-12-09: 0 contributions" />
+    <rect class="cell level-0 delay-23" x="340" y="89" width="11" height="11" rx="2" aria-label="2025-12-10: 0 contributions" />
+    <rect class="cell level-0 delay-24" x="340" y="103" width="11" height="11" rx="2" aria-label="2025-12-11: 0 contributions" />
+    <rect class="cell level-0 delay-25" x="340" y="117" width="11" height="11" rx="2" aria-label="2025-12-12: 0 contributions" />
+    <rect class="cell level-0 delay-26" x="340" y="131" width="11" height="11" rx="2" aria-label="2025-12-13: 0 contributions" />
+    <rect class="cell level-0 delay-21" x="354" y="47" width="11" height="11" rx="2" aria-label="2025-12-14: 0 contributions" />
+    <rect class="cell level-0 delay-22" x="354" y="61" width="11" height="11" rx="2" aria-label="2025-12-15: 0 contributions" />
+    <rect class="cell level-0 delay-23" x="354" y="75" width="11" height="11" rx="2" aria-label="2025-12-16: 0 contributions" />
+    <rect class="cell level-0 delay-24" x="354" y="89" width="11" height="11" rx="2" aria-label="2025-12-17: 0 contributions" />
+    <rect class="cell level-0 delay-25" x="354" y="103" width="11" height="11" rx="2" aria-label="2025-12-18: 0 contributions" />
+    <rect class="cell level-0 delay-26" x="354" y="117" width="11" height="11" rx="2" aria-label="2025-12-19: 0 contributions" />
+    <rect class="cell level-0 delay-27" x="354" y="131" width="11" height="11" rx="2" aria-label="2025-12-20: 0 contributions" />
+    <rect class="cell level-0 delay-22" x="368" y="47" width="11" height="11" rx="2" aria-label="2025-12-21: 0 contributions" />
+    <rect class="cell level-0 delay-23" x="368" y="61" width="11" height="11" rx="2" aria-label="2025-12-22: 0 contributions" />
+    <rect class="cell level-0 delay-24" x="368" y="75" width="11" height="11" rx="2" aria-label="2025-12-23: 0 contributions" />
+    <rect class="cell level-0 delay-25" x="368" y="89" width="11" height="11" rx="2" aria-label="2025-12-24: 0 contributions" />
+    <rect class="cell level-0 delay-26" x="368" y="103" width="11" height="11" rx="2" aria-label="2025-12-25: 0 contributions" />
+    <rect class="cell level-0 delay-27" x="368" y="117" width="11" height="11" rx="2" aria-label="2025-12-26: 0 contributions" />
+    <rect class="cell level-0 delay-28" x="368" y="131" width="11" height="11" rx="2" aria-label="2025-12-27: 0 contributions" />
+    <rect class="cell level-0 delay-23" x="382" y="47" width="11" height="11" rx="2" aria-label="2025-12-28: 0 contributions" />
+    <rect class="cell level-0 delay-24" x="382" y="61" width="11" height="11" rx="2" aria-label="2025-12-29: 0 contributions" />
+    <rect class="cell level-0 delay-25" x="382" y="75" width="11" height="11" rx="2" aria-label="2025-12-30: 0 contributions" />
+    <rect class="cell level-0 delay-26" x="382" y="89" width="11" height="11" rx="2" aria-label="2025-12-31: 0 contributions" />
+    <rect class="cell level-0 delay-27" x="382" y="103" width="11" height="11" rx="2" aria-label="2026-01-01: 0 contributions" />
+    <rect class="cell level-0 delay-28" x="382" y="117" width="11" height="11" rx="2" aria-label="2026-01-02: 0 contributions" />
+    <rect class="cell level-0 delay-29" x="382" y="131" width="11" height="11" rx="2" aria-label="2026-01-03: 0 contributions" />
+    <rect class="cell level-0 delay-24" x="396" y="47" width="11" height="11" rx="2" aria-label="2026-01-04: 0 contributions" />
+    <rect class="cell level-0 delay-25" x="396" y="61" width="11" height="11" rx="2" aria-label="2026-01-05: 0 contributions" />
+    <rect class="cell level-0 delay-26" x="396" y="75" width="11" height="11" rx="2" aria-label="2026-01-06: 0 contributions" />
+    <rect class="cell level-0 delay-27" x="396" y="89" width="11" height="11" rx="2" aria-label="2026-01-07: 0 contributions" />
+    <rect class="cell level-0 delay-28" x="396" y="103" width="11" height="11" rx="2" aria-label="2026-01-08: 0 contributions" />
+    <rect class="cell level-0 delay-29" x="396" y="117" width="11" height="11" rx="2" aria-label="2026-01-09: 0 contributions" />
+    <rect class="cell level-0 delay-30" x="396" y="131" width="11" height="11" rx="2" aria-label="2026-01-10: 0 contributions" />
+    <rect class="cell level-0 delay-25" x="410" y="47" width="11" height="11" rx="2" aria-label="2026-01-11: 0 contributions" />
+    <rect class="cell level-0 delay-26" x="410" y="61" width="11" height="11" rx="2" aria-label="2026-01-12: 0 contributions" />
+    <rect class="cell level-0 delay-27" x="410" y="75" width="11" height="11" rx="2" aria-label="2026-01-13: 0 contributions" />
+    <rect class="cell level-0 delay-28" x="410" y="89" width="11" height="11" rx="2" aria-label="2026-01-14: 0 contributions" />
+    <rect class="cell level-0 delay-29" x="410" y="103" width="11" height="11" rx="2" aria-label="2026-01-15: 0 contributions" />
+    <rect class="cell level-0 delay-30" x="410" y="117" width="11" height="11" rx="2" aria-label="2026-01-16: 0 contributions" />
+    <rect class="cell level-0 delay-31" x="410" y="131" width="11" height="11" rx="2" aria-label="2026-01-17: 0 contributions" />
+    <rect class="cell level-0 delay-26" x="424" y="47" width="11" height="11" rx="2" aria-label="2026-01-18: 0 contributions" />
+    <rect class="cell level-0 delay-27" x="424" y="61" width="11" height="11" rx="2" aria-label="2026-01-19: 0 contributions" />
+    <rect class="cell level-0 delay-28" x="424" y="75" width="11" height="11" rx="2" aria-label="2026-01-20: 0 contributions" />
+    <rect class="cell level-0 delay-29" x="424" y="89" width="11" height="11" rx="2" aria-label="2026-01-21: 0 contributions" />
+    <rect class="cell level-0 delay-30" x="424" y="103" width="11" height="11" rx="2" aria-label="2026-01-22: 0 contributions" />
+    <rect class="cell level-0 delay-31" x="424" y="117" width="11" height="11" rx="2" aria-label="2026-01-23: 0 contributions" />
+    <rect class="cell level-0 delay-32" x="424" y="131" width="11" height="11" rx="2" aria-label="2026-01-24: 0 contributions" />
+    <rect class="cell level-0 delay-27" x="438" y="47" width="11" height="11" rx="2" aria-label="2026-01-25: 0 contributions" />
+    <rect class="cell level-0 delay-28" x="438" y="61" width="11" height="11" rx="2" aria-label="2026-01-26: 0 contributions" />
+    <rect class="cell level-0 delay-29" x="438" y="75" width="11" height="11" rx="2" aria-label="2026-01-27: 0 contributions" />
+    <rect class="cell level-0 delay-30" x="438" y="89" width="11" height="11" rx="2" aria-label="2026-01-28: 0 contributions" />
+    <rect class="cell level-0 delay-31" x="438" y="103" width="11" height="11" rx="2" aria-label="2026-01-29: 0 contributions" />
+    <rect class="cell level-0 delay-32" x="438" y="117" width="11" height="11" rx="2" aria-label="2026-01-30: 0 contributions" />
+    <rect class="cell level-0 delay-33" x="438" y="131" width="11" height="11" rx="2" aria-label="2026-01-31: 0 contributions" />
+    <rect class="cell level-0 delay-28" x="452" y="47" width="11" height="11" rx="2" aria-label="2026-02-01: 0 contributions" />
+    <rect class="cell level-0 delay-29" x="452" y="61" width="11" height="11" rx="2" aria-label="2026-02-02: 0 contributions" />
+    <rect class="cell level-0 delay-30" x="452" y="75" width="11" height="11" rx="2" aria-label="2026-02-03: 0 contributions" />
+    <rect class="cell level-0 delay-31" x="452" y="89" width="11" height="11" rx="2" aria-label="2026-02-04: 0 contributions" />
+    <rect class="cell level-0 delay-32" x="452" y="103" width="11" height="11" rx="2" aria-label="2026-02-05: 0 contributions" />
+    <rect class="cell level-0 delay-33" x="452" y="117" width="11" height="11" rx="2" aria-label="2026-02-06: 0 contributions" />
+    <rect class="cell level-0 delay-34" x="452" y="131" width="11" height="11" rx="2" aria-label="2026-02-07: 0 contributions" />
+    <rect class="cell level-0 delay-29" x="466" y="47" width="11" height="11" rx="2" aria-label="2026-02-08: 0 contributions" />
+    <rect class="cell level-0 delay-30" x="466" y="61" width="11" height="11" rx="2" aria-label="2026-02-09: 0 contributions" />
+    <rect class="cell level-0 delay-31" x="466" y="75" width="11" height="11" rx="2" aria-label="2026-02-10: 0 contributions" />
+    <rect class="cell level-0 delay-32" x="466" y="89" width="11" height="11" rx="2" aria-label="2026-02-11: 0 contributions" />
+    <rect class="cell level-0 delay-33" x="466" y="103" width="11" height="11" rx="2" aria-label="2026-02-12: 0 contributions" />
+    <rect class="cell level-0 delay-34" x="466" y="117" width="11" height="11" rx="2" aria-label="2026-02-13: 0 contributions" />
+    <rect class="cell level-0 delay-35" x="466" y="131" width="11" height="11" rx="2" aria-label="2026-02-14: 0 contributions" />
+    <rect class="cell level-0 delay-30" x="480" y="47" width="11" height="11" rx="2" aria-label="2026-02-15: 0 contributions" />
+    <rect class="cell level-0 delay-31" x="480" y="61" width="11" height="11" rx="2" aria-label="2026-02-16: 0 contributions" />
+    <rect class="cell level-0 delay-32" x="480" y="75" width="11" height="11" rx="2" aria-label="2026-02-17: 0 contributions" />
+    <rect class="cell level-0 delay-33" x="480" y="89" width="11" height="11" rx="2" aria-label="2026-02-18: 0 contributions" />
+    <rect class="cell level-0 delay-34" x="480" y="103" width="11" height="11" rx="2" aria-label="2026-02-19: 0 contributions" />
+    <rect class="cell level-0 delay-35" x="480" y="117" width="11" height="11" rx="2" aria-label="2026-02-20: 0 contributions" />
+    <rect class="cell level-0 delay-36" x="480" y="131" width="11" height="11" rx="2" aria-label="2026-02-21: 0 contributions" />
+    <rect class="cell level-0 delay-31" x="494" y="47" width="11" height="11" rx="2" aria-label="2026-02-22: 0 contributions" />
+    <rect class="cell level-0 delay-32" x="494" y="61" width="11" height="11" rx="2" aria-label="2026-02-23: 0 contributions" />
+    <rect class="cell level-0 delay-33" x="494" y="75" width="11" height="11" rx="2" aria-label="2026-02-24: 0 contributions" />
+    <rect class="cell level-0 delay-34" x="494" y="89" width="11" height="11" rx="2" aria-label="2026-02-25: 0 contributions" />
+    <rect class="cell level-0 delay-35" x="494" y="103" width="11" height="11" rx="2" aria-label="2026-02-26: 0 contributions" />
+    <rect class="cell level-0 delay-36" x="494" y="117" width="11" height="11" rx="2" aria-label="2026-02-27: 0 contributions" />
+    <rect class="cell level-0 delay-37" x="494" y="131" width="11" height="11" rx="2" aria-label="2026-02-28: 0 contributions" />
+    <rect class="cell level-0 delay-32" x="508" y="47" width="11" height="11" rx="2" aria-label="2026-03-01: 0 contributions" />
+    <rect class="cell level-0 delay-33" x="508" y="61" width="11" height="11" rx="2" aria-label="2026-03-02: 0 contributions" />
+    <rect class="cell level-0 delay-34" x="508" y="75" width="11" height="11" rx="2" aria-label="2026-03-03: 0 contributions" />
+    <rect class="cell level-0 delay-35" x="508" y="89" width="11" height="11" rx="2" aria-label="2026-03-04: 0 contributions" />
+    <rect class="cell level-0 delay-36" x="508" y="103" width="11" height="11" rx="2" aria-label="2026-03-05: 0 contributions" />
+    <rect class="cell level-0 delay-37" x="508" y="117" width="11" height="11" rx="2" aria-label="2026-03-06: 0 contributions" />
+    <rect class="cell level-0 delay-38" x="508" y="131" width="11" height="11" rx="2" aria-label="2026-03-07: 0 contributions" />
+    <rect class="cell level-0 delay-33" x="522" y="47" width="11" height="11" rx="2" aria-label="2026-03-08: 0 contributions" />
+    <rect class="cell level-0 delay-34" x="522" y="61" width="11" height="11" rx="2" aria-label="2026-03-09: 0 contributions" />
+    <rect class="cell level-1 delay-35" x="522" y="75" width="11" height="11" rx="2" aria-label="2026-03-10: 9 contributions" />
+    <rect class="cell level-0 delay-36" x="522" y="89" width="11" height="11" rx="2" aria-label="2026-03-11: 0 contributions" />
+    <rect class="cell level-1 delay-37" x="522" y="103" width="11" height="11" rx="2" aria-label="2026-03-12: 6 contributions" />
+    <rect class="cell level-1 delay-38" x="522" y="117" width="11" height="11" rx="2" aria-label="2026-03-13: 1 contributions" />
+    <rect class="cell level-1 delay-39" x="522" y="131" width="11" height="11" rx="2" aria-label="2026-03-14: 1 contributions" />
+    <rect class="cell level-1 delay-34" x="536" y="47" width="11" height="11" rx="2" aria-label="2026-03-15: 1 contributions" />
+    <rect class="cell level-0 delay-35" x="536" y="61" width="11" height="11" rx="2" aria-label="2026-03-16: 0 contributions" />
+    <rect class="cell level-0 delay-36" x="536" y="75" width="11" height="11" rx="2" aria-label="2026-03-17: 0 contributions" />
+    <rect class="cell level-1 delay-37" x="536" y="89" width="11" height="11" rx="2" aria-label="2026-03-18: 1 contributions" />
+    <rect class="cell level-0 delay-38" x="536" y="103" width="11" height="11" rx="2" aria-label="2026-03-19: 0 contributions" />
+    <rect class="cell level-1 delay-39" x="536" y="117" width="11" height="11" rx="2" aria-label="2026-03-20: 1 contributions" />
+    <rect class="cell level-0 delay-40" x="536" y="131" width="11" height="11" rx="2" aria-label="2026-03-21: 0 contributions" />
+    <rect class="cell level-0 delay-35" x="550" y="47" width="11" height="11" rx="2" aria-label="2026-03-22: 0 contributions" />
+    <rect class="cell level-0 delay-36" x="550" y="61" width="11" height="11" rx="2" aria-label="2026-03-23: 0 contributions" />
+    <rect class="cell level-1 delay-37" x="550" y="75" width="11" height="11" rx="2" aria-label="2026-03-24: 7 contributions" />
+    <rect class="cell level-0 delay-38" x="550" y="89" width="11" height="11" rx="2" aria-label="2026-03-25: 0 contributions" />
+    <rect class="cell level-0 delay-39" x="550" y="103" width="11" height="11" rx="2" aria-label="2026-03-26: 0 contributions" />
+    <rect class="cell level-0 delay-40" x="550" y="117" width="11" height="11" rx="2" aria-label="2026-03-27: 0 contributions" />
+    <rect class="cell level-0 delay-41" x="550" y="131" width="11" height="11" rx="2" aria-label="2026-03-28: 0 contributions" />
+    <rect class="cell level-0 delay-36" x="564" y="47" width="11" height="11" rx="2" aria-label="2026-03-29: 0 contributions" />
+    <rect class="cell level-0 delay-37" x="564" y="61" width="11" height="11" rx="2" aria-label="2026-03-30: 0 contributions" />
+    <rect class="cell level-0 delay-38" x="564" y="75" width="11" height="11" rx="2" aria-label="2026-03-31: 0 contributions" />
+    <rect class="cell level-0 delay-39" x="564" y="89" width="11" height="11" rx="2" aria-label="2026-04-01: 0 contributions" />
+    <rect class="cell level-0 delay-40" x="564" y="103" width="11" height="11" rx="2" aria-label="2026-04-02: 0 contributions" />
+    <rect class="cell level-0 delay-41" x="564" y="117" width="11" height="11" rx="2" aria-label="2026-04-03: 0 contributions" />
+    <rect class="cell level-0 delay-42" x="564" y="131" width="11" height="11" rx="2" aria-label="2026-04-04: 0 contributions" />
+    <rect class="cell level-0 delay-37" x="578" y="47" width="11" height="11" rx="2" aria-label="2026-04-05: 0 contributions" />
+    <rect class="cell level-0 delay-38" x="578" y="61" width="11" height="11" rx="2" aria-label="2026-04-06: 0 contributions" />
+    <rect class="cell level-0 delay-39" x="578" y="75" width="11" height="11" rx="2" aria-label="2026-04-07: 0 contributions" />
+    <rect class="cell level-1 delay-40" x="578" y="89" width="11" height="11" rx="2" aria-label="2026-04-08: 1 contributions" />
+    <rect class="cell level-0 delay-41" x="578" y="103" width="11" height="11" rx="2" aria-label="2026-04-09: 0 contributions" />
+    <rect class="cell level-0 delay-42" x="578" y="117" width="11" height="11" rx="2" aria-label="2026-04-10: 0 contributions" />
+    <rect class="cell level-0 delay-43" x="578" y="131" width="11" height="11" rx="2" aria-label="2026-04-11: 0 contributions" />
+    <rect class="cell level-0 delay-38" x="592" y="47" width="11" height="11" rx="2" aria-label="2026-04-12: 0 contributions" />
+    <rect class="cell level-0 delay-39" x="592" y="61" width="11" height="11" rx="2" aria-label="2026-04-13: 0 contributions" />
+    <rect class="cell level-0 delay-40" x="592" y="75" width="11" height="11" rx="2" aria-label="2026-04-14: 0 contributions" />
+    <rect class="cell level-0 delay-41" x="592" y="89" width="11" height="11" rx="2" aria-label="2026-04-15: 0 contributions" />
+    <rect class="cell level-1 delay-42" x="592" y="103" width="11" height="11" rx="2" aria-label="2026-04-16: 2 contributions" />
+    <rect class="cell level-0 delay-43" x="592" y="117" width="11" height="11" rx="2" aria-label="2026-04-17: 0 contributions" />
+    <rect class="cell level-0 delay-44" x="592" y="131" width="11" height="11" rx="2" aria-label="2026-04-18: 0 contributions" />
+    <rect class="cell level-0 delay-39" x="606" y="47" width="11" height="11" rx="2" aria-label="2026-04-19: 0 contributions" />
+    <rect class="cell level-0 delay-40" x="606" y="61" width="11" height="11" rx="2" aria-label="2026-04-20: 0 contributions" />
+    <rect class="cell level-0 delay-41" x="606" y="75" width="11" height="11" rx="2" aria-label="2026-04-21: 0 contributions" />
+    <rect class="cell level-0 delay-42" x="606" y="89" width="11" height="11" rx="2" aria-label="2026-04-22: 0 contributions" />
+    <rect class="cell level-1 delay-43" x="606" y="103" width="11" height="11" rx="2" aria-label="2026-04-23: 1 contributions" />
+    <rect class="cell level-0 delay-44" x="606" y="117" width="11" height="11" rx="2" aria-label="2026-04-24: 0 contributions" />
+    <rect class="cell level-0 delay-45" x="606" y="131" width="11" height="11" rx="2" aria-label="2026-04-25: 0 contributions" />
+    <rect class="cell level-0 delay-40" x="620" y="47" width="11" height="11" rx="2" aria-label="2026-04-26: 0 contributions" />
+    <rect class="cell level-0 delay-41" x="620" y="61" width="11" height="11" rx="2" aria-label="2026-04-27: 0 contributions" />
+    <rect class="cell level-0 delay-42" x="620" y="75" width="11" height="11" rx="2" aria-label="2026-04-28: 0 contributions" />
+    <rect class="cell level-0 delay-43" x="620" y="89" width="11" height="11" rx="2" aria-label="2026-04-29: 0 contributions" />
+    <rect class="cell level-0 delay-44" x="620" y="103" width="11" height="11" rx="2" aria-label="2026-04-30: 0 contributions" />
+    <rect class="cell level-0 delay-45" x="620" y="117" width="11" height="11" rx="2" aria-label="2026-05-01: 0 contributions" />
+    <rect class="cell level-0 delay-46" x="620" y="131" width="11" height="11" rx="2" aria-label="2026-05-02: 0 contributions" />
+    <rect class="cell level-0 delay-41" x="634" y="47" width="11" height="11" rx="2" aria-label="2026-05-03: 0 contributions" />
+    <rect class="cell level-0 delay-42" x="634" y="61" width="11" height="11" rx="2" aria-label="2026-05-04: 0 contributions" />
+    <rect class="cell level-0 delay-43" x="634" y="75" width="11" height="11" rx="2" aria-label="2026-05-05: 0 contributions" />
+    <rect class="cell level-1 delay-44" x="634" y="89" width="11" height="11" rx="2" aria-label="2026-05-06: 4 contributions" />
+    <rect class="cell level-1 delay-45" x="634" y="103" width="11" height="11" rx="2" aria-label="2026-05-07: 1 contributions" />
+    <rect class="cell level-1 delay-46" x="634" y="117" width="11" height="11" rx="2" aria-label="2026-05-08: 2 contributions" />
+    <rect class="cell level-0 delay-47" x="634" y="131" width="11" height="11" rx="2" aria-label="2026-05-09: 0 contributions" />
+    <rect class="cell level-0 delay-42" x="648" y="47" width="11" height="11" rx="2" aria-label="2026-05-10: 0 contributions" />
+    <rect class="cell level-0 delay-43" x="648" y="61" width="11" height="11" rx="2" aria-label="2026-05-11: 0 contributions" />
+    <rect class="cell level-0 delay-44" x="648" y="75" width="11" height="11" rx="2" aria-label="2026-05-12: 0 contributions" />
+    <rect class="cell level-0 delay-45" x="648" y="89" width="11" height="11" rx="2" aria-label="2026-05-13: 0 contributions" />
+    <rect class="cell level-1 delay-46" x="648" y="103" width="11" height="11" rx="2" aria-label="2026-05-14: 1 contributions" />
+    <rect class="cell level-0 delay-47" x="648" y="117" width="11" height="11" rx="2" aria-label="2026-05-15: 0 contributions" />
+    <rect class="cell level-0 delay-48" x="648" y="131" width="11" height="11" rx="2" aria-label="2026-05-16: 0 contributions" />
+    <rect class="cell level-0 delay-43" x="662" y="47" width="11" height="11" rx="2" aria-label="2026-05-17: 0 contributions" />
+    <rect class="cell level-0 delay-44" x="662" y="61" width="11" height="11" rx="2" aria-label="2026-05-18: 0 contributions" />
+    <rect class="cell level-0 delay-45" x="662" y="75" width="11" height="11" rx="2" aria-label="2026-05-19: 0 contributions" />
+    <rect class="cell level-0 delay-46" x="662" y="89" width="11" height="11" rx="2" aria-label="2026-05-20: 0 contributions" />
+    <rect class="cell level-1 delay-47" x="662" y="103" width="11" height="11" rx="2" aria-label="2026-05-21: 7 contributions" />
+    <rect class="cell level-1 delay-48" x="662" y="117" width="11" height="11" rx="2" aria-label="2026-05-22: 1 contributions" />
+    <rect class="cell level-1 delay-49" x="662" y="131" width="11" height="11" rx="2" aria-label="2026-05-23: 1 contributions" />
+    <rect class="cell level-0 delay-44" x="676" y="47" width="11" height="11" rx="2" aria-label="2026-05-24: 0 contributions" />
+    <rect class="cell level-0 delay-45" x="676" y="61" width="11" height="11" rx="2" aria-label="2026-05-25: 0 contributions" />
+    <rect class="cell level-0 delay-46" x="676" y="75" width="11" height="11" rx="2" aria-label="2026-05-26: 0 contributions" />
+    <rect class="cell level-4 delay-47" x="676" y="89" width="11" height="11" rx="2" aria-label="2026-05-27: 28 contributions" />
+    <rect class="cell level-3 delay-48" x="676" y="103" width="11" height="11" rx="2" aria-label="2026-05-28: 26 contributions" />
+    <rect class="cell level-0 delay-49" x="676" y="117" width="11" height="11" rx="2" aria-label="2026-05-29: 0 contributions" />
+    <rect class="cell level-0 delay-50" x="676" y="131" width="11" height="11" rx="2" aria-label="2026-05-30: 0 contributions" />
+    <rect class="cell level-3 delay-45" x="690" y="47" width="11" height="11" rx="2" aria-label="2026-05-31: 20 contributions" />
+    <rect class="cell level-2 delay-46" x="690" y="61" width="11" height="11" rx="2" aria-label="2026-06-01: 13 contributions" />
+    <rect class="cell level-3 delay-47" x="690" y="75" width="11" height="11" rx="2" aria-label="2026-06-02: 24 contributions" />
+    <rect class="cell level-4 delay-48" x="690" y="89" width="11" height="11" rx="2" aria-label="2026-06-03: 32 contributions" />
+    <rect class="cell level-2 delay-49" x="690" y="103" width="11" height="11" rx="2" aria-label="2026-06-04: 10 contributions" />
+    <rect class="cell level-2 delay-50" x="690" y="117" width="11" height="11" rx="2" aria-label="2026-06-05: 17 contributions" />
+    <rect class="cell level-1 delay-51" x="690" y="131" width="11" height="11" rx="2" aria-label="2026-06-06: 3 contributions" />
+    <rect class="cell level-1 delay-46" x="704" y="47" width="11" height="11" rx="2" aria-label="2026-06-07: 4 contributions" />
+    <rect class="cell level-1 delay-47" x="704" y="61" width="11" height="11" rx="2" aria-label="2026-06-08: 9 contributions" />
+    <rect class="cell level-1 delay-48" x="704" y="75" width="11" height="11" rx="2" aria-label="2026-06-09: 4 contributions" />
+    <rect class="cell level-0 delay-49" x="704" y="89" width="11" height="11" rx="2" aria-label="2026-06-10: 0 contributions" />
+    <rect class="cell level-0 delay-50" x="704" y="103" width="11" height="11" rx="2" aria-label="2026-06-11: 0 contributions" />
+    <rect class="cell level-1 delay-51" x="704" y="117" width="11" height="11" rx="2" aria-label="2026-06-12: 2 contributions" />
+    <rect class="cell level-1 delay-52" x="704" y="131" width="11" height="11" rx="2" aria-label="2026-06-13: 1 contributions" />
+    <rect class="cell level-0 delay-47" x="718" y="47" width="11" height="11" rx="2" aria-label="2026-06-14: 0 contributions" />
+    <rect class="cell level-1 delay-48" x="718" y="61" width="11" height="11" rx="2" aria-label="2026-06-15: 1 contributions" />
+    <rect class="cell level-1 delay-49" x="718" y="75" width="11" height="11" rx="2" aria-label="2026-06-16: 2 contributions" />
+    <rect class="cell level-4 delay-50" x="718" y="89" width="11" height="11" rx="2" aria-label="2026-06-17: 31 contributions" />
+    <rect class="cell level-1 delay-51" x="718" y="103" width="11" height="11" rx="2" aria-label="2026-06-18: 1 contributions" />
+    <rect class="cell level-0 delay-52" x="718" y="117" width="11" height="11" rx="2" aria-label="2026-06-19: 0 contributions" />
+    <rect class="cell level-0 delay-53" x="718" y="131" width="11" height="11" rx="2" aria-label="2026-06-20: 0 contributions" />
+    <rect class="cell level-0 delay-48" x="732" y="47" width="11" height="11" rx="2" aria-label="2026-06-21: 0 contributions" />
+    <rect class="cell level-1 delay-49" x="732" y="61" width="11" height="11" rx="2" aria-label="2026-06-22: 7 contributions" />
+    <rect class="cell level-1 delay-50" x="732" y="75" width="11" height="11" rx="2" aria-label="2026-06-23: 7 contributions" />
+    <rect class="cell level-2 delay-51" x="732" y="89" width="11" height="11" rx="2" aria-label="2026-06-24: 13 contributions" />
+    <rect class="cell level-2 delay-52" x="732" y="103" width="11" height="11" rx="2" aria-label="2026-06-25: 13 contributions" />
+    <rect class="cell level-1 delay-53" x="732" y="117" width="11" height="11" rx="2" aria-label="2026-06-26: 8 contributions" />
+    <rect class="cell level-0 delay-54" x="732" y="131" width="11" height="11" rx="2" aria-label="2026-06-27: 0 contributions" />
+    <rect class="cell level-0 delay-49" x="746" y="47" width="11" height="11" rx="2" aria-label="2026-06-28: 0 contributions" />
+    <rect class="cell level-1 delay-50" x="746" y="61" width="11" height="11" rx="2" aria-label="2026-06-29: 3 contributions" />
+    <rect class="cell level-1 delay-51" x="746" y="75" width="11" height="11" rx="2" aria-label="2026-06-30: 2 contributions" />
+    <rect class="cell level-1 delay-52" x="746" y="89" width="11" height="11" rx="2" aria-label="2026-07-01: 5 contributions" />
+    <rect class="cell level-1 delay-53" x="746" y="103" width="11" height="11" rx="2" aria-label="2026-07-02: 4 contributions" />
+    <rect class="cell level-0 delay-54" x="746" y="117" width="11" height="11" rx="2" aria-label="2026-07-03: 0 contributions" />
+    <rect class="cell level-0 delay-55" x="746" y="131" width="11" height="11" rx="2" aria-label="2026-07-04: 0 contributions" />
+    <rect class="cell level-0 delay-50" x="760" y="47" width="11" height="11" rx="2" aria-label="2026-07-05: 0 contributions" />
+    <rect class="cell level-2 delay-51" x="760" y="61" width="11" height="11" rx="2" aria-label="2026-07-06: 17 contributions" />
+    <rect class="cell level-4 delay-52" x="760" y="75" width="11" height="11" rx="2" aria-label="2026-07-07: 30 contributions" />
+    <rect class="cell level-3 delay-53" x="760" y="89" width="11" height="11" rx="2" aria-label="2026-07-08: 21 contributions" />
+    <rect class="cell level-1 delay-54" x="760" y="103" width="11" height="11" rx="2" aria-label="2026-07-09: 9 contributions" />
+    <rect class="cell level-1 delay-55" x="760" y="117" width="11" height="11" rx="2" aria-label="2026-07-10: 1 contributions" />
+    <rect class="cell level-0 delay-56" x="760" y="131" width="11" height="11" rx="2" aria-label="2026-07-11: 0 contributions" />
+    <rect class="cell level-0 delay-51" x="774" y="47" width="11" height="11" rx="2" aria-label="2026-07-12: 0 contributions" />
+    <rect class="cell level-3 delay-52" x="774" y="61" width="11" height="11" rx="2" aria-label="2026-07-13: 24 contributions" />
+    <rect class="cell level-4 delay-53" x="774" y="75" width="11" height="11" rx="2" aria-label="2026-07-14: 36 contributions" />
+    <rect class="cell level-0 delay-54" x="774" y="89" width="11" height="11" rx="2" aria-label="2026-07-15: 0 contributions" />
+    <rect class="cell level-1 delay-55" x="774" y="103" width="11" height="11" rx="2" aria-label="2026-07-16: 4 contributions" />
+    <rect class="cell level-0 delay-56" x="774" y="117" width="11" height="11" rx="2" aria-label="2026-07-17: 0 contributions" />
+    <rect class="cell level-0 delay-57" x="774" y="131" width="11" height="11" rx="2" aria-label="2026-07-18: 0 contributions" />
+    <rect class="cell level-0 delay-52" x="788" y="47" width="11" height="11" rx="2" aria-label="2026-07-19: 0 contributions" />
+    <rect class="cell level-1 delay-53" x="788" y="61" width="11" height="11" rx="2" aria-label="2026-07-20: 1 contributions" />
+
+  <line x1="20" y1="160" x2="840" y2="160" stroke="#21262d" />
+  <text class="stat" x="24" y="187">481 contributions  ·  1 day current  ·  10 days best</text>
+  <text class="label" x="687" y="187">less</text>
+    <rect x="723" y="178" width="10" height="10" rx="2" fill="#21262d" />
+    <rect x="739" y="178" width="10" height="10" rx="2" fill="#0e4429" />
+    <rect x="755" y="178" width="10" height="10" rx="2" fill="#006d32" />
+    <rect x="771" y="178" width="10" height="10" rx="2" fill="#26a641" />
+    <rect x="787" y="178" width="10" height="10" rx="2" fill="#39d353" />
+  <text class="label" x="809" y="187">more</text>
+</svg>

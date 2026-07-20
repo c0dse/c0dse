@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="360"
+  viewBox="0 0 500 360" role="img" aria-labelledby="title description">
+  <title id="title">c0dse profile information</title>
+  <desc id="description">
+    Software engineer at GeoCat,
+    based in Wageningen, NL. Focused on
+    backend · web · geospatial.
+  </desc>
+  <style>
+    text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+    }
+    .heading { fill: #f0f6fc; font-size: 14px; font-weight: 600; }
+    .key { fill: #8b949e; }
+    .separator { fill: #484f58; }
+    @media (prefers-reduced-motion: reduce) {
+      g { opacity: 1; transform: none; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="499" height="359" rx="14"
+    fill="#0d1117" stroke="#30363d" />
+  <circle cx="19" cy="20" r="4" fill="#ff7b72" />
+  <circle cx="32" cy="20" r="4" fill="#d29922" />
+  <circle cx="45" cy="20" r="4" fill="#3fb950" />
+  <text class="heading" x="64" y="25">
+    <tspan fill="#7ee787">c0dse</tspan><tspan fill="#8b949e">@github</tspan>
+    <tspan fill="#58a6ff"> ~ $ whoami</tspan>
+  </text>
+  <line x1="1" y1="40" x2="499" y2="40" stroke="#21262d" />
+
+  <text x="28" y="61" fill="#484f58">---------------------------------------------</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1"
+      begin="0.22s" dur=".28s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate"
+      from="0 7" to="0 0" begin="0.22s" dur=".28s" fill="freeze" />
+    <text class="key" x="28" y="92">role</text>
+    <text class="separator" x="101" y="92">:</text>
+    <text x="119" y="92" fill="#58a6ff">Software engineer</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1"
+      begin="0.35s" dur=".28s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate"
+      from="0 7" to="0 0" begin="0.35s" dur=".28s" fill="freeze" />
+    <text class="key" x="28" y="123">company</text>
+    <text class="separator" x="101" y="123">:</text>
+    <text x="119" y="123" fill="#7ee787">GeoCat</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1"
+      begin="0.48s" dur=".28s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate"
+      from="0 7" to="0 0" begin="0.48s" dur=".28s" fill="freeze" />
+    <text class="key" x="28" y="154">base</text>
+    <text class="separator" x="101" y="154">:</text>
+    <text x="119" y="154" fill="#d2a8ff">Wageningen, NL</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1"
+      begin="0.61s" dur=".28s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate"
+      from="0 7" to="0 0" begin="0.61s" dur=".28s" fill="freeze" />
+    <text class="key" x="28" y="185">focus</text>
+    <text class="separator" x="101" y="185">:</text>
+    <text x="119" y="185" fill="#f2cc60">backend · web · geospatial</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1"
+      begin="0.74s" dur=".28s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate"
+      from="0 7" to="0 0" begin="0.74s" dur=".28s" fill="freeze" />
+    <text class="key" x="28" y="216">stack</text>
+    <text class="separator" x="101" y="216">:</text>
+    <text x="119" y="216" fill="#58a6ff">Java · Spring · Python</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1"
+      begin="0.87s" dur=".28s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate"
+      from="0 7" to="0 0" begin="0.87s" dur=".28s" fill="freeze" />
+    <text class="key" x="28" y="247">data</text>
+    <text class="separator" x="101" y="247">:</text>
+    <text x="119" y="247" fill="#7ee787">PostgreSQL · PostGIS</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1"
+      begin="1.00s" dur=".28s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate"
+      from="0 7" to="0 0" begin="1.00s" dur=".28s" fill="freeze" />
+    <text class="key" x="28" y="278">tools</text>
+    <text class="separator" x="101" y="278">:</text>
+    <text x="119" y="278" fill="#d2a8ff">Codex · Claude Code</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1"
+      begin="1.13s" dur=".28s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate"
+      from="0 7" to="0 0" begin="1.13s" dur=".28s" fill="freeze" />
+    <text class="key" x="28" y="309">status</text>
+    <text class="separator" x="101" y="309">:</text>
+    <text x="119" y="309" fill="#f2cc60">building useful systems</text>
+  </g>
+
+  <g opacity=".3" aria-hidden="true">
+    <path d="M420 270 h34 v34 h-34 z M437 253 v68 M403 287 h68"
+      fill="none" stroke="#238636" />
+    <circle cx="437" cy="287" r="24" fill="none" stroke="#1f6feb" />
+    <circle cx="437" cy="287" r="4" fill="#7ee787" />
+  </g>
+</svg>

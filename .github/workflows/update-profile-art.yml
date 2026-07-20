@@ -1,0 +1,46 @@
+name: Update profile art
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: true
+
+jobs:
+  update-heatmap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch public contributions
+        run: python scripts/fetch_contributions.py
+
+      - name: Render animated heatmap
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Commit updated artwork
+        shell: bash
+        run: |
+          if git diff --quiet -- data/contributions.json contribution-heatmap.svg; then
+            echo "Contribution artwork is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/contributions.json contribution-heatmap.svg
+          git commit -m "chore: refresh contribution art [skip ci]"
+          git push
