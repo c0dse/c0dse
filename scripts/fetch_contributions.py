@@ -70,7 +70,9 @@ def contribution_count(tooltip: str) -> int:
     return int(match.group(1).replace(",", ""))
 
 
-def calculate_streaks(days: list[dict[str, object]]) -> tuple[int, int]:
+def calculate_streaks(
+    days: list[dict[str, object]], fetched_on: date
+) -> tuple[int, int]:
     counts = {
         date.fromisoformat(str(day["date"])): int(day["count"]) for day in days
     }
@@ -89,7 +91,7 @@ def calculate_streaks(days: list[dict[str, object]]) -> tuple[int, int]:
 
     cursor = ordered_dates[-1]
     # Do not let an unfinished, zero-contribution current day break the streak.
-    if cursor == date.today() and counts[cursor] == 0:
+    if cursor == fetched_on and counts[cursor] == 0:
         cursor -= timedelta(days=1)
 
     current_streak = 0
@@ -100,7 +102,12 @@ def calculate_streaks(days: list[dict[str, object]]) -> tuple[int, int]:
     return current_streak, longest
 
 
-def build_payload(username: str, parser: ContributionParser) -> dict[str, object]:
+def build_payload(
+    username: str,
+    parser: ContributionParser,
+    fetched_on: date | None = None,
+) -> dict[str, object]:
+    fetched_on = fetched_on or datetime.now(timezone.utc).date()
     parsed_days: list[dict[str, object]] = []
     for cell_id, day in parser.days.items():
         tooltip = parser.tooltips.get(cell_id)
@@ -120,7 +127,25 @@ def build_payload(username: str, parser: ContributionParser) -> dict[str, object
             f"Expected roughly one year of contribution cells, got {len(parsed_days)}"
         )
 
-    current_streak, longest_streak = calculate_streaks(parsed_days)
+    parsed_dates: list[date] = []
+    for day in parsed_days:
+        parsed = date.fromisoformat(str(day["date"]))
+        count = day["count"]
+        level = day["level"]
+        if not isinstance(count, int) or isinstance(count, bool) or count < 0:
+            raise ValueError("Contribution counts must be non-negative integers")
+        if not isinstance(level, int) or isinstance(level, bool) or not 0 <= level <= 4:
+            raise ValueError("Contribution levels must be integers from 0 through 4")
+        parsed_dates.append(parsed)
+    if len(set(parsed_dates)) != len(parsed_dates):
+        raise ValueError("Contribution calendar contains duplicate dates")
+    if any(
+        current != previous + timedelta(days=1)
+        for previous, current in zip(parsed_dates, parsed_dates[1:])
+    ):
+        raise ValueError("Contribution calendar dates must be consecutive")
+
+    current_streak, longest_streak = calculate_streaks(parsed_days, fetched_on)
     total = sum(int(day["count"]) for day in parsed_days)
     best = max(parsed_days, key=lambda item: int(item["count"]))
 
@@ -132,7 +157,7 @@ def build_payload(username: str, parser: ContributionParser) -> dict[str, object
         "username": username,
         "source": f"https://github.com/users/{username}/contributions",
         # Date precision keeps repeat runs on the same day idempotent.
-        "fetched_on": datetime.now(timezone.utc).date().isoformat(),
+        "fetched_on": fetched_on.isoformat(),
         "range": {
             "from": parsed_days[0]["date"],
             "to": parsed_days[-1]["date"],

@@ -233,7 +233,7 @@ def main() -> None:
     .title {{ font-size: 26px; font-weight: 650; letter-spacing: -.5px; }}
     .subtitle {{ fill: var(--muted); font-size: 12px; }}
     .section-title {{ fill: var(--text); font-size: 11px; font-weight: 600; }}
-    .axis {{ fill: var(--muted); font-size: 8px; }}
+    .axis {{ fill: var(--muted); font-size: 9px; }}
     .month-label {{ font-weight: 600; letter-spacing: .7px; }}
     .grid {{ stroke: var(--border); stroke-width: 1; stroke-dasharray: 2 5; }}
     .average-line {{ stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 4; opacity: .6; }}
@@ -254,7 +254,7 @@ def main() -> None:
     .big-number {{ font-size: 48px; font-weight: 650; letter-spacing: -2px; }}
     .number-caption {{ fill: var(--muted); font-size: 11px; }}
     .metric-value {{ font-size: 20px; font-weight: 650; }}
-    .metric-label {{ fill: var(--muted); font-size: 8px; letter-spacing: .6px; }}
+    .metric-label {{ fill: var(--muted); font-size: 9px; letter-spacing: .6px; }}
     .momentum {{ font-size: 34px; font-weight: 650; letter-spacing: -1px; }}
     .positive {{ fill: var(--green); }}
     .warning {{ fill: var(--orange); }}
@@ -295,7 +295,7 @@ def main() -> None:
   <text class="metric-value" x="744" y="230">{longest}d</text>
   <text class="metric-label mono" x="744" y="245">LONGEST STREAK</text>
   <text class="metric-value" x="632" y="282">{int(peak['count'])}</text>
-  <text class="metric-label mono" x="632" y="297">STRONGEST WEEK</text>
+  <text class="metric-label mono" x="632" y="297">26W PEAK</text>
   <text class="metric-value" x="744" y="282">{insights['average_active_day']:.1f}</text>
   <text class="metric-label mono" x="744" y="297">AVG / ACTIVE DAY</text>
 

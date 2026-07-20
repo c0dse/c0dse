@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-07-20",
+  "window": {
+    "from": "2026-04-22",
+    "to": "2026-07-20",
+    "days": 90
+  },
+  "previous_window": {
+    "from": "2026-01-22",
+    "to": "2026-04-21",
+    "days": 90
+  },
+  "work_mix": {
+    "current": {
+      "commit_contributions": 225,
+      "pull_requests_opened": 87,
+      "issues_opened": 142,
+      "reviews_submitted": 0
+    },
+    "previous": {
+      "commit_contributions": 24,
+      "pull_requests_opened": 5,
+      "issues_opened": 0,
+      "reviews_submitted": 0
+    }
+  },
+  "shipping_pulse": {
+    "current": {
+      "pull_requests_merged": 66,
+      "authored_issues_closed": 72,
+      "repositories_with_commits": 10,
+      "active_days": 44
+    },
+    "previous": {
+      "pull_requests_merged": 5,
+      "authored_issues_closed": 0,
+      "repositories_with_commits": 2,
+      "active_days": 10
+    }
+  }
+}
