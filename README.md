@@ -3,53 +3,38 @@
 <img
   src="./developer-signal.svg"
   width="860"
-  alt="c0dse Developer Signal: weekly contribution velocity, activity metrics, 28-day momentum and engineering focus"
+  alt="c0dse Developer Signal: weekly public contribution velocity, activity metrics and 28-day change"
 />
 
 <br><br>
 
 <img
-  src="./work-ledger.svg"
-  width="860"
-  alt="c0dse Work Ledger: anonymous 90-day work mix and shipping totals compared with the prior 90 days"
+  src="./work-mix.svg"
+  width="360"
+  alt="Anonymous 90-day work mix: commits, pull requests, issues and review contributions"
 />
-
-<br><br>
-
 <img
-  src="./operating-context.svg"
-  width="860"
-  alt="c0dse Operating Context: current engineering focus and technical footprint"
+  src="./shipping-pulse.svg"
+  width="360"
+  alt="Anonymous 90-day shipping pulse: merged pull requests, closed issues, repositories with commits and public active days"
 />
 
 </div>
 
-### Selected work
+### Selected systems
 
-**01 / Geospatial systems**
+**01 / Privacy-safe activity analytics**
 
-Backend and web engineering for spatial workflows, using Java, Spring, PostgreSQL and PostGIS to turn domain complexity into dependable product behavior.
+GitHub activity is reduced to an allowlisted set of anonymous totals before it reaches this repository. The result is a useful 90-day work signal without publishing repository names, organizations, URLs or work-item details.
 
-**02 / Developer tooling**
+**02 / Deterministic profile automation**
 
-Automation around recurring engineering work, with Python and AI-assisted development workflows that keep the human in control.
+Public contribution data is validated, rendered into accessible light/dark SVGs and refreshed by a pinned GitHub Actions workflow. Repeated runs produce no commit when the output is already current. The implementation lives in [this repository](https://github.com/c0dse/c0dse).
 
-**03 / Profile automation**
+### Current focus
 
-This profile is a small public engineering project: GitHub data becomes validated JSON, deterministic SVG artwork and a scheduled refresh. The implementation lives in [this repository](https://github.com/c0dse/c0dse).
+Geospatial backend systems with Java, Spring, PostgreSQL and PostGIS, plus Python automation and pragmatic developer tooling.
 
-### Engineering principles
+**Working principles:** prefer dependable systems over clever abstractions; automate recurring work; keep data boundaries and trade-offs explicit.
 
-1. **Make it useful.** Optimize for real work, not ornamental complexity.
-2. **Automate repetition.** Turn recurring work into dependable systems.
-3. **Keep it legible.** Prefer clear interfaces and explicit trade-offs.
-
-### Ask me about
-
-Java and Spring backend systems / PostgreSQL and PostGIS / geospatial web / Python automation / AI-assisted development.
-
-<div align="center">
-
-<a href="https://github.com/c0dse/c0dse/issues/new"><strong>Start a conversation</strong></a>
-
-</div>
+**Ask me about:** Java/Spring backends, spatial data, Python automation or AI-assisted engineering. [Start a conversation](https://github.com/c0dse/c0dse/issues/new)

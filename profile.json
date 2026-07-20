@@ -2,42 +2,5 @@
   "username": "c0dse",
   "role": "Software engineer",
   "company": "GeoCat",
-  "location": "Wageningen, NL",
-  "focus": "backend / web / geospatial",
-  "stack": "Java / Spring / Python",
-  "data": "PostgreSQL / PostGIS",
-  "tools": "Codex / Claude Code",
-  "status": "building useful systems",
-  "current_focus": [
-    {
-      "label": "BUILDING",
-      "value": "useful systems"
-    },
-    {
-      "label": "WORKING ACROSS",
-      "value": "backend / web / geospatial"
-    },
-    {
-      "label": "EXPLORING WITH",
-      "value": "Codex / Claude Code"
-    }
-  ],
-  "tech_footprint": [
-    {
-      "label": "BACKEND",
-      "value": "Java / Spring"
-    },
-    {
-      "label": "SPATIAL DATA",
-      "value": "PostgreSQL / PostGIS"
-    },
-    {
-      "label": "AUTOMATION",
-      "value": "Python"
-    },
-    {
-      "label": "AI WORKFLOW",
-      "value": "Codex / Claude Code"
-    }
-  ]
+  "location": "Wageningen, NL"
 }

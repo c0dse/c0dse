@@ -37,13 +37,13 @@ jobs:
       - name: Commit updated artwork
         shell: bash
         run: |
-          if git diff --quiet -- data/contributions.json developer-signal.svg work-ledger.svg operating-context.svg; then
+          if git diff --quiet -- data/contributions.json developer-signal.svg work-mix.svg shipping-pulse.svg; then
             echo "Profile artwork is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json developer-signal.svg work-ledger.svg operating-context.svg
+          git add data/contributions.json developer-signal.svg work-mix.svg shipping-pulse.svg
           git commit -m "chore: refresh profile artwork [skip ci]"
           git push

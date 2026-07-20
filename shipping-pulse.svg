@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="336"
+  viewBox="0 0 360 336" role="img" aria-labelledby="title desc">
+  <title id="title">c0dse shipping pulse</title>
+  <desc id="desc">Anonymous 90-day totals for merged pull requests, authored issues closed, repositories with commit contributions and public active days.</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #0d1117; --surface: #161b22; --border: #30363d;
+      --text: #f0f6fc; --muted: #8b949e; --green: #3fb950;
+      --blue: #58a6ff; --orange: #d29922;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --canvas: #ffffff; --surface: #f6f8fa; --border: #d0d7de;
+        --text: #1f2328; --muted: #59636e; --green: #1f883d;
+        --blue: #0969da; --orange: #9a6700;
+      }
+    }
+    text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: var(--text); text-rendering: geometricPrecision;
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .canvas { fill: var(--canvas); }
+    .surface { fill: var(--surface); }
+    .frame { fill: none; stroke: var(--border); }
+    .divider { stroke: var(--border); stroke-width: 1; }
+    .eyebrow { fill: var(--muted); font-size: 10px; font-weight: 650; letter-spacing: .8px; }
+    .panel-title { font-size: 21px; font-weight: 650; letter-spacing: -.35px; }
+    .subtitle { fill: var(--muted); font-size: 11px; }
+    .label { fill: var(--muted); font-size: 9.5px; font-weight: 650; letter-spacing: .45px; }
+    .row-value { font-size: 16px; font-weight: 650; }
+    .body { font-size: 12px; }
+    .big-value { font-size: 38px; font-weight: 650; letter-spacing: -1px; }
+    .small { fill: var(--muted); font-size: 9.5px; }
+    .green { fill: var(--green); }
+    .blue { fill: var(--blue); }
+    .orange { fill: var(--orange); }
+
+  </style>
+  <rect class="canvas" width="360" height="336" rx="6" />
+  <rect class="frame" x=".5" y=".5" width="359" height="335" rx="6" />
+  <text class="eyebrow mono" x="20" y="23">LAST 90 DAYS</text>
+  <text class="eyebrow mono" x="340" y="23" text-anchor="end">AS OF 20 JUL 2026</text>
+  <text class="panel-title" x="20" y="51">Shipping pulse</text>
+  <text class="subtitle" x="20" y="70">Anonymous totals / repository details omitted</text>
+  <line class="divider" x1="1" y1="88" x2="359" y2="88" />
+
+  <line class="divider" x1="180" y1="104" x2="180" y2="320" />
+  <line class="divider" x1="20" y1="212" x2="340" y2="212" />
+  <text class="big-value green" x="20" y="143">66</text>
+  <text class="label mono" x="20" y="166">MERGED PRS</text>
+  <text class="small mono" x="20" y="198">+61 vs prior</text>
+  <text class="big-value blue" x="198" y="143">72</text>
+  <text class="label mono" x="198" y="166">AUTHORED ISSUES</text>
+  <text class="small mono" x="198" y="180">CLOSED IN WINDOW</text>
+  <text class="small mono" x="198" y="198">+72 vs prior</text>
+  <text class="big-value orange" x="20" y="260">10</text>
+  <text class="label mono" x="20" y="283">REPOS WITH COMMITS</text>
+  <text class="small mono" x="20" y="315">+8 vs prior</text>
+  <text class="big-value" x="198" y="260">44</text>
+  <text class="label mono" x="198" y="283">ACTIVE DAYS</text>
+  <text class="small mono" x="198" y="297">PUBLIC CALENDAR</text>
+  <text class="small mono" x="198" y="315">+34 vs prior</text>
+</svg>

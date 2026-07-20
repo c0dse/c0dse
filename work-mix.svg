@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="336"
+  viewBox="0 0 360 336" role="img" aria-labelledby="title desc">
+  <title id="title">c0dse work mix</title>
+  <desc id="desc">An anonymous 90-day composition of GitHub-counted commit, pull request, issue and review contributions, compared with the previous 90 days.</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #0d1117; --surface: #161b22; --border: #30363d;
+      --text: #f0f6fc; --muted: #8b949e; --green: #3fb950;
+      --blue: #58a6ff; --orange: #d29922;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --canvas: #ffffff; --surface: #f6f8fa; --border: #d0d7de;
+        --text: #1f2328; --muted: #59636e; --green: #1f883d;
+        --blue: #0969da; --orange: #9a6700;
+      }
+    }
+    text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: var(--text); text-rendering: geometricPrecision;
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .canvas { fill: var(--canvas); }
+    .surface { fill: var(--surface); }
+    .frame { fill: none; stroke: var(--border); }
+    .divider { stroke: var(--border); stroke-width: 1; }
+    .eyebrow { fill: var(--muted); font-size: 10px; font-weight: 650; letter-spacing: .8px; }
+    .panel-title { font-size: 21px; font-weight: 650; letter-spacing: -.35px; }
+    .subtitle { fill: var(--muted); font-size: 11px; }
+    .label { fill: var(--muted); font-size: 9.5px; font-weight: 650; letter-spacing: .45px; }
+    .row-value { font-size: 16px; font-weight: 650; }
+    .body { font-size: 12px; }
+    .big-value { font-size: 38px; font-weight: 650; letter-spacing: -1px; }
+    .small { fill: var(--muted); font-size: 9.5px; }
+    .green { fill: var(--green); }
+    .blue { fill: var(--blue); }
+    .orange { fill: var(--orange); }
+
+  </style>
+  <rect class="canvas" width="360" height="336" rx="6" />
+  <rect class="frame" x=".5" y=".5" width="359" height="335" rx="6" />
+  <text class="eyebrow mono" x="20" y="23">LAST 90 DAYS</text>
+  <text class="eyebrow mono" x="340" y="23" text-anchor="end">AS OF 20 JUL 2026</text>
+  <text class="panel-title" x="20" y="51">Work mix</text>
+  <text class="subtitle" x="20" y="70">GitHub-counted contribution types</text>
+  <line class="divider" x1="1" y1="88" x2="359" y2="88" />
+
+  <rect class="surface" x="20.0" y="108.0" width="320.0" height="12.0" rx="3" />
+  <rect class="green" x="20.0" y="108.0" width="158.6" height="12.0" rx="3" />
+  <rect class="blue" x="178.6" y="108.0" width="61.3" height="12.0" rx="0" />
+  <rect class="orange" x="239.9" y="108.0" width="100.1" height="12.0" rx="3" />
+  <text class="label mono" x="34" y="145">TYPE</text>
+  <text class="label mono" x="230" y="145" text-anchor="end">COUNT</text>
+  <text class="label mono" x="282" y="145" text-anchor="end">MIX</text>
+  <text class="label mono" x="340" y="145" text-anchor="end">VS PRIOR</text>
+  <circle class="green" cx="24" cy="170" r="3.5" />
+  <text class="label mono" x="34" y="174">COMMITS</text>
+  <text class="row-value green" x="230" y="174" text-anchor="end">225</text>
+  <text class="body mono" x="282" y="174" text-anchor="end">50%</text>
+  <text class="small mono" x="340" y="174" text-anchor="end">+201</text>
+  <line class="divider" x1="20" y1="188" x2="340" y2="188" />
+  <circle class="blue" cx="24" cy="205" r="3.5" />
+  <text class="label mono" x="34" y="209">PRS OPENED</text>
+  <text class="row-value blue" x="230" y="209" text-anchor="end">87</text>
+  <text class="body mono" x="282" y="209" text-anchor="end">19%</text>
+  <text class="small mono" x="340" y="209" text-anchor="end">+82</text>
+  <line class="divider" x1="20" y1="223" x2="340" y2="223" />
+  <circle class="orange" cx="24" cy="240" r="3.5" />
+  <text class="label mono" x="34" y="244">ISSUES OPENED</text>
+  <text class="row-value orange" x="230" y="244" text-anchor="end">142</text>
+  <text class="body mono" x="282" y="244" text-anchor="end">31%</text>
+  <text class="small mono" x="340" y="244" text-anchor="end">+142</text>
+  <line class="divider" x1="20" y1="258" x2="340" y2="258" />
+  <circle class="surface" cx="24" cy="275" r="3.5" />
+  <text class="label mono" x="34" y="279">REVIEW CONTRIBUTIONS</text>
+  <text class="row-value" x="230" y="279" text-anchor="end">0</text>
+  <text class="body mono" x="282" y="279" text-anchor="end">0%</text>
+  <text class="small mono" x="340" y="279" text-anchor="end">EVEN</text>
+
+  <line class="divider" x1="1" y1="302" x2="359" y2="302" />
+  <text class="small mono" x="20" y="323">ANONYMIZED TOTALS / 454 COUNTED ACTIONS</text>
+</svg>

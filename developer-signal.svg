@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="430"
   viewBox="0 0 860 430" role="img" aria-labelledby="title desc">
   <title id="title">c0dse developer signal</title>
-  <desc id="desc">A GitHub-themed analysis of c0dse's public contributions. It shows 26 weekly totals, one-year activity metrics, momentum and engineering focus.</desc>
+  <desc id="desc">A GitHub-themed analysis of c0dse's public contributions. It shows 26 weekly totals, one-year activity metrics and the change between two 28-day periods.</desc>
   <style>
     :root {
       color-scheme: light dark;
@@ -54,7 +54,6 @@
     .metric-label { fill: var(--muted); font-size: 9px; letter-spacing: .6px; }
     .momentum { font-size: 34px; font-weight: 650; letter-spacing: -1px; }
     .positive { fill: var(--green); }
-    .warning { fill: var(--orange); }
     .neutral { fill: var(--blue); }
     .focus-line { fill: var(--muted); font-size: 11px; }
     .focus-value { font-size: 12px; font-weight: 600; }
@@ -142,15 +141,15 @@
   <text class="metric-label mono" x="744" y="297">AVG / ACTIVE DAY</text>
 
   <line class="divider" x1="1" y1="332" x2="859" y2="332" />
-  <text class="eyebrow mono" x="28" y="356">28-DAY MOMENTUM</text>
-  <text class="momentum warning" x="28" y="397">-10%</text>
+  <text class="eyebrow mono" x="28" y="356">28-DAY CHANGE</text>
+  <text class="momentum neutral" x="28" y="397">-10%</text>
   <text class="focus-line" x="122" y="378">211 contributions now</text>
   <text class="focus-line" x="122" y="397">vs 235 in the prior 28 days</text>
 
   <line class="divider" x1="290" y1="350" x2="290" y2="407" />
-  <text class="eyebrow mono" x="316" y="356">ENGINEERING FOCUS</text>
-  <text class="focus-value" x="316" y="379">backend / web / geospatial</text>
-  <text class="focus-line" x="316" y="399">Java / Spring / Python / PostgreSQL / PostGIS</text>
+  <text class="eyebrow mono" x="316" y="356">HOW TO READ</text>
+  <text class="focus-value" x="316" y="379">bars = weekly totals / line = trajectory</text>
+  <text class="focus-line" x="316" y="399">orange marker = 26-week peak</text>
 
-  <text class="axis mono" x="831" y="419" text-anchor="end">bars = weekly totals / line = trajectory / busiest rhythm = Wed</text>
+  <text class="axis mono" x="831" y="419" text-anchor="end">busiest public contribution rhythm = Wed</text>
 </svg>

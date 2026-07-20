@@ -190,21 +190,18 @@ def main() -> None:
     updated = f"{fetched.day} {MONTHS[fetched.month - 1]} {fetched.year}"
     longest = int(stats["longest_streak"])
     momentum = escape(str(insights["momentum"]))
-    momentum_class = "positive" if str(insights["momentum"]).startswith("+") else "warning"
-    if momentum in {"0%", "NEW"}:
-        momentum_class = "neutral"
+    momentum_class = (
+        "positive" if str(insights["momentum"]).startswith("+") else "neutral"
+    )
 
     identity = (
         f'{clean_label(profile["role"])} @ {clean_label(profile["company"])}'
         f' / {clean_label(profile["location"])}'
     )
-    focus = clean_label(profile["focus"])
-    stack = f'{clean_label(profile["stack"])} / {clean_label(profile["data"])}'
-
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}"
   viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-labelledby="title desc">
   <title id="title">c0dse developer signal</title>
-  <desc id="desc">A GitHub-themed analysis of c0dse's public contributions. It shows 26 weekly totals, one-year activity metrics, momentum and engineering focus.</desc>
+  <desc id="desc">A GitHub-themed analysis of c0dse's public contributions. It shows 26 weekly totals, one-year activity metrics and the change between two 28-day periods.</desc>
   <style>
     :root {{
       color-scheme: light dark;
@@ -257,7 +254,6 @@ def main() -> None:
     .metric-label {{ fill: var(--muted); font-size: 9px; letter-spacing: .6px; }}
     .momentum {{ font-size: 34px; font-weight: 650; letter-spacing: -1px; }}
     .positive {{ fill: var(--green); }}
-    .warning {{ fill: var(--orange); }}
     .neutral {{ fill: var(--blue); }}
     .focus-line {{ fill: var(--muted); font-size: 11px; }}
     .focus-value {{ font-size: 12px; font-weight: 600; }}
@@ -300,23 +296,23 @@ def main() -> None:
   <text class="metric-label mono" x="744" y="297">AVG / ACTIVE DAY</text>
 
   <line class="divider" x1="1" y1="332" x2="859" y2="332" />
-  <text class="eyebrow mono" x="28" y="356">28-DAY MOMENTUM</text>
+  <text class="eyebrow mono" x="28" y="356">28-DAY CHANGE</text>
   <text class="momentum {momentum_class}" x="28" y="397">{momentum}</text>
   <text class="focus-line" x="122" y="378">{insights['last_28']} contributions now</text>
   <text class="focus-line" x="122" y="397">vs {insights['previous_28']} in the prior 28 days</text>
 
   <line class="divider" x1="290" y1="350" x2="290" y2="407" />
-  <text class="eyebrow mono" x="316" y="356">ENGINEERING FOCUS</text>
-  <text class="focus-value" x="316" y="379">{escape(focus)}</text>
-  <text class="focus-line" x="316" y="399">{escape(stack)}</text>
+  <text class="eyebrow mono" x="316" y="356">HOW TO READ</text>
+  <text class="focus-value" x="316" y="379">bars = weekly totals / line = trajectory</text>
+  <text class="focus-line" x="316" y="399">orange marker = 26-week peak</text>
 
-  <text class="axis mono" x="831" y="419" text-anchor="end">bars = weekly totals / line = trajectory / busiest rhythm = {insights['busiest_weekday']}</text>
+  <text class="axis mono" x="831" y="419" text-anchor="end">busiest public contribution rhythm = {insights['busiest_weekday']}</text>
 </svg>
 """
     OUTPUT_PATH.write_text(svg, encoding="utf-8")
     print(
         f"Wrote {OUTPUT_PATH.name}: {total} contributions, "
-        f"{insights['active_days']} active days, {insights['momentum']} momentum."
+        f"{insights['active_days']} active days, {insights['momentum']} 28-day change."
     )
 
 
