@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430"
+  viewBox="0 0 860 430" role="img" aria-labelledby="title desc">
+  <title id="title">c0dse developer signal</title>
+  <desc id="desc">A GitHub-themed analysis of c0dse's public contributions. It shows 26 weekly totals, one-year activity metrics, momentum and engineering focus.</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #0d1117; --surface: #161b22; --border: #30363d;
+      --text: #f0f6fc; --muted: #8b949e; --green: #3fb950;
+      --green-1: #0e4429; --green-2: #006d32; --green-3: #26a641;
+      --blue: #58a6ff; --orange: #d29922;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --canvas: #ffffff; --surface: #f6f8fa; --border: #d0d7de;
+        --text: #1f2328; --muted: #59636e; --green: #1f883d;
+        --green-1: #aceebb; --green-2: #4ac26b; --green-3: #2da44e;
+        --blue: #0969da; --orange: #9a6700;
+      }
+    }
+    text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: var(--text); text-rendering: geometricPrecision;
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .canvas { fill: var(--canvas); }
+    .frame { fill: none; stroke: var(--border); }
+    .divider { stroke: var(--border); stroke-width: 1; }
+    .eyebrow { fill: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: 1.1px; }
+    .title { font-size: 26px; font-weight: 650; letter-spacing: -.5px; }
+    .subtitle { fill: var(--muted); font-size: 12px; }
+    .section-title { fill: var(--text); font-size: 11px; font-weight: 600; }
+    .axis { fill: var(--muted); font-size: 8px; }
+    .month-label { font-weight: 600; letter-spacing: .7px; }
+    .grid { stroke: var(--border); stroke-width: 1; stroke-dasharray: 2 5; }
+    .average-line { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 4; opacity: .6; }
+    .bar { shape-rendering: geometricPrecision; }
+    .level-zero { fill: var(--surface); }
+    .level-one { fill: var(--green-1); }
+    .level-two { fill: var(--green-2); }
+    .level-three { fill: var(--green-3); }
+    .level-four { fill: var(--green); }
+    .trajectory, .signal-runner { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+    .trajectory { stroke: var(--blue); stroke-width: 1.5; opacity: .44; }
+    .signal-runner {
+      stroke: var(--green); stroke-width: 2.6; stroke-dasharray: .11 .89;
+      stroke-dashoffset: 1; animation: signal-travel 3.8s linear infinite;
+    }
+    .peak-dot { fill: var(--canvas); stroke: var(--orange); stroke-width: 2; }
+    .peak-guide { stroke: var(--orange); stroke-width: 1; stroke-dasharray: 2 3; }
+    .big-number { font-size: 48px; font-weight: 650; letter-spacing: -2px; }
+    .number-caption { fill: var(--muted); font-size: 11px; }
+    .metric-value { font-size: 20px; font-weight: 650; }
+    .metric-label { fill: var(--muted); font-size: 8px; letter-spacing: .6px; }
+    .momentum { font-size: 34px; font-weight: 650; letter-spacing: -1px; }
+    .positive { fill: var(--green); }
+    .warning { fill: var(--orange); }
+    .neutral { fill: var(--blue); }
+    .focus-line { fill: var(--muted); font-size: 11px; }
+    .focus-value { font-size: 12px; font-weight: 600; }
+    .legend-dot { fill: var(--green); }
+    @keyframes signal-travel { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .signal-runner { animation: none; display: none; }
+    }
+  </style>
+
+  <rect class="canvas" width="860" height="430" rx="6" />
+  <rect class="frame" x=".5" y=".5" width="859" height="429" rx="6" />
+
+  <text class="title mono" x="28" y="38">c0dse</text>
+  <text class="eyebrow mono" x="127" y="34">/ DEVELOPER SIGNAL</text>
+  <text class="subtitle" x="28" y="61">Software engineer @ GeoCat / Wageningen, NL</text>
+  <circle class="legend-dot" cx="703" cy="31" r="3" />
+  <text class="eyebrow mono" x="714" y="34">LIVE PUBLIC DATA</text>
+  <text class="subtitle mono" x="831" y="58" text-anchor="end">UPDATED 20 JUL 2026</text>
+  <line class="divider" x1="1" y1="78" x2="859" y2="78" />
+
+  <text class="section-title mono" x="34" y="106">WEEKLY VELOCITY / LAST 26 WEEKS</text>
+  <text class="eyebrow mono" x="592" y="106" text-anchor="end">PEAK 103 / 1 Jun-7 Jun</text>
+  <text class="axis mono" x="34" y="122">ONE BAR = ONE WEEK / HEIGHT = PUBLIC CONTRIBUTIONS</text>
+  <g aria-label="Weekly public contribution totals for the last 26 weeks">
+    <line class="grid" x1="34" y1="296.0" x2="592" y2="296.0" />
+    <text class="axis" x="29" y="299.0" text-anchor="end">0</text>
+    <line class="grid" x1="34" y1="229.0" x2="592" y2="229.0" />
+    <text class="axis" x="29" y="232.0" text-anchor="end">52</text>
+    <line class="grid" x1="34" y1="162.0" x2="592" y2="162.0" />
+    <text class="axis" x="29" y="165.0" text-anchor="end">103</text>
+    <line class="average-line" x1="34" y1="283.8" x2="592" y2="283.8" />
+    <text class="axis average-label" x="588" y="278.8" text-anchor="end">12M AVG 9.4/WK</text>
+    <rect class="bar level-zero" x="34.5" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-zero" x="56.3" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-zero" x="78.1" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-zero" x="99.9" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-zero" x="121.7" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-zero" x="143.5" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="165.3" y="272.6" width="11.0" height="23.4" rx="2" />
+    <rect class="bar level-one" x="187.1" y="293.4" width="11.0" height="2.6" rx="2" />
+    <rect class="bar level-one" x="208.9" y="286.9" width="11.0" height="9.1" rx="2" />
+    <rect class="bar level-zero" x="230.7" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="252.5" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="274.3" y="293.4" width="11.0" height="2.6" rx="2" />
+    <rect class="bar level-one" x="296.1" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-zero" x="317.9" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="339.7" y="286.9" width="11.0" height="9.1" rx="2" />
+    <rect class="bar level-one" x="361.5" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="383.3" y="284.3" width="11.0" height="11.7" rx="2" />
+    <rect class="bar level-three" x="405.1" y="199.7" width="11.0" height="96.3" rx="2" />
+    <rect class="bar level-four" x="426.9" y="162.0" width="11.0" height="134.0" rx="2" />
+    <rect class="bar level-one" x="448.7" y="275.2" width="11.0" height="20.8" rx="2" />
+    <rect class="bar level-two" x="470.5" y="250.5" width="11.0" height="45.5" rx="2" />
+    <rect class="bar level-three" x="492.3" y="233.6" width="11.0" height="62.4" rx="2" />
+    <rect class="bar level-one" x="514.1" y="277.8" width="11.0" height="18.2" rx="2" />
+    <rect class="bar level-four" x="535.9" y="194.5" width="11.0" height="101.5" rx="2" />
+    <rect class="bar level-three" x="557.7" y="212.7" width="11.0" height="83.3" rx="2" />
+    <rect class="bar level-one" x="579.5" y="285.6" width="11.0" height="10.4" rx="2" />
+    <path class="trajectory" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,294.0 L 127.2,294.0 L 149.0,294.0 L 170.8,272.6 L 192.6,293.4 L 214.4,286.9 L 236.2,294.0 L 258.0,294.0 L 279.8,293.4 L 301.6,294.0 L 323.4,294.0 L 345.2,286.9 L 367.0,294.0 L 388.8,284.3 L 410.6,199.7 L 432.4,162.0 L 454.2,275.2 L 476.0,250.5 L 497.8,233.6 L 519.6,277.8 L 541.4,194.5 L 563.2,212.7 L 585.0,285.6" />
+    <path class="signal-runner" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,294.0 L 127.2,294.0 L 149.0,294.0 L 170.8,272.6 L 192.6,293.4 L 214.4,286.9 L 236.2,294.0 L 258.0,294.0 L 279.8,293.4 L 301.6,294.0 L 323.4,294.0 L 345.2,286.9 L 367.0,294.0 L 388.8,284.3 L 410.6,199.7 L 432.4,162.0 L 454.2,275.2 L 476.0,250.5 L 497.8,233.6 L 519.6,277.8 L 541.4,194.5 L 563.2,212.7 L 585.0,285.6" />
+    <circle class="peak-dot" cx="432.4" cy="162.0" r="4" />
+    <line class="peak-guide" x1="432.4" y1="155.0" x2="432.4" y2="125" />
+    <text class="axis month-label" x="61.8" y="318">FEB</text>
+    <text class="axis month-label" x="149.0" y="318">MAR</text>
+    <text class="axis month-label" x="258.0" y="318">APR</text>
+    <text class="axis month-label" x="345.2" y="318">MAY</text>
+    <text class="axis month-label" x="432.4" y="318">JUN</text>
+    <text class="axis month-label" x="541.4" y="318">JUL</text>
+  </g>
+
+  <line class="divider" x1="612" y1="94" x2="612" y2="306" />
+  <text class="eyebrow mono" x="633" y="108">PUBLIC SIGNAL / 12 MONTHS</text>
+  <text class="big-number" x="630" y="160">488</text>
+  <text class="number-caption" x="632" y="178">contributions recorded by GitHub</text>
+  <line class="divider" x1="632" y1="194" x2="831" y2="194" />
+
+  <text class="metric-value" x="632" y="230">54</text>
+  <text class="metric-label mono" x="632" y="245">ACTIVE DAYS</text>
+  <text class="metric-value" x="744" y="230">10d</text>
+  <text class="metric-label mono" x="744" y="245">LONGEST STREAK</text>
+  <text class="metric-value" x="632" y="282">103</text>
+  <text class="metric-label mono" x="632" y="297">STRONGEST WEEK</text>
+  <text class="metric-value" x="744" y="282">9.0</text>
+  <text class="metric-label mono" x="744" y="297">AVG / ACTIVE DAY</text>
+
+  <line class="divider" x1="1" y1="332" x2="859" y2="332" />
+  <text class="eyebrow mono" x="28" y="356">28-DAY MOMENTUM</text>
+  <text class="momentum warning" x="28" y="397">-13%</text>
+  <text class="focus-line" x="122" y="378">205 contributions now</text>
+  <text class="focus-line" x="122" y="397">vs 235 in the prior 28 days</text>
+
+  <line class="divider" x1="290" y1="350" x2="290" y2="407" />
+  <text class="eyebrow mono" x="316" y="356">ENGINEERING FOCUS</text>
+  <text class="focus-value" x="316" y="379">backend / web / geospatial</text>
+  <text class="focus-line" x="316" y="399">Java / Spring / Python / PostgreSQL / PostGIS</text>
+
+  <text class="axis mono" x="831" y="419" text-anchor="end">bars = weekly totals / line = trajectory / busiest rhythm = Wed</text>
+</svg>

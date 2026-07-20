@@ -1,14 +1,14 @@
 <div align="center">
 
 <img
-  src="./systems-atlas.svg"
+  src="./developer-signal.svg"
   width="860"
-  alt="C0DSE Systems Atlas: a generated topographic portrait of c0dse's GitHub contribution signal, software-engineering focus and geospatial stack"
+  alt="c0dse Developer Signal: weekly contribution velocity, activity metrics, 28-day momentum and engineering focus"
 />
 
 <br><br>
 
-<sub>One year of public contribution signals, translated into terrain unique to this account. Regenerated daily.</sub>
+<sub>Not another contribution grid: this turns public activity into weekly velocity, streaks and momentum. Regenerated daily.</sub>
 
 <br><br>
 

@@ -1,4 +1,4 @@
-name: Update systems atlas
+name: Update developer signal
 
 on:
   schedule:
@@ -9,11 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: systems-atlas
+  group: developer-signal
   cancel-in-progress: true
 
 jobs:
-  update-atlas:
+  update-signal:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -28,19 +28,19 @@ jobs:
       - name: Fetch public contributions
         run: python scripts/fetch_contributions.py
 
-      - name: Render systems atlas
-        run: python scripts/render_systems_atlas_svg.py
+      - name: Render developer signal
+        run: python scripts/render_developer_signal_svg.py
 
       - name: Commit updated artwork
         shell: bash
         run: |
-          if git diff --quiet -- data/contributions.json systems-atlas.svg; then
-            echo "Systems Atlas is already current."
+          if git diff --quiet -- data/contributions.json developer-signal.svg; then
+            echo "Developer Signal is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json systems-atlas.svg
-          git commit -m "chore: refresh systems atlas [skip ci]"
+          git add data/contributions.json developer-signal.svg
+          git commit -m "chore: refresh developer signal [skip ci]"
           git push
