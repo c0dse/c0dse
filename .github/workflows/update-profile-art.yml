@@ -1,4 +1,4 @@
-name: Update profile art
+name: Update systems atlas
 
 on:
   schedule:
@@ -9,11 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-art
+  group: systems-atlas
   cancel-in-progress: true
 
 jobs:
-  update-heatmap:
+  update-atlas:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -28,19 +28,19 @@ jobs:
       - name: Fetch public contributions
         run: python scripts/fetch_contributions.py
 
-      - name: Render animated heatmap
-        run: python scripts/render_heatmap_svg.py
+      - name: Render systems atlas
+        run: python scripts/render_systems_atlas_svg.py
 
       - name: Commit updated artwork
         shell: bash
         run: |
-          if git diff --quiet -- data/contributions.json contribution-heatmap.svg; then
-            echo "Contribution artwork is already current."
+          if git diff --quiet -- data/contributions.json systems-atlas.svg; then
+            echo "Systems Atlas is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json contribution-heatmap.svg
-          git commit -m "chore: refresh contribution art [skip ci]"
+          git add data/contributions.json systems-atlas.svg
+          git commit -m "chore: refresh systems atlas [skip ci]"
           git push

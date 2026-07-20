@@ -1,1 +1,1 @@
-# The profile generators intentionally use only Python's standard library.
+# The Systems Atlas generators intentionally use only Python's standard library.
