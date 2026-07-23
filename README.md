@@ -1,6 +1,13 @@
 <div align="center">
 
 <img
+  src="./typing-banner.svg"
+  width="860"
+  alt="Animated introduction: Welcome to my profile; I am Jasper; Junior developer at GeoCat B.V."
+/>
+
+<br>
+<img
   src="./developer-signal.svg"
   width="860"
   alt="c0dse Developer Signal: weekly public contribution velocity, activity metrics and 28-day change"

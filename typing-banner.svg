@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="112"
+  viewBox="0 0 860 112" role="img" aria-labelledby="title desc">
+  <title id="title">Introduction to Jasper's GitHub profile</title>
+  <desc id="desc">An animated terminal-style banner that types: Welcome to my profile, I am Jasper, and Junior developer at GeoCat B.V.</desc>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #f0f6fc;
+      --muted: #8b949e;
+      --green: #3fb950;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --canvas: #ffffff;
+        --surface: #f6f8fa;
+        --border: #d0d7de;
+        --text: #1f2328;
+        --muted: #59636e;
+        --green: #1f883d;
+      }
+    }
+    text {
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      text-rendering: geometricPrecision;
+    }
+    .canvas { fill: var(--canvas); }
+    .frame { fill: none; stroke: var(--border); }
+    .topbar { fill: var(--surface); }
+    .divider { stroke: var(--border); }
+    .label {
+      fill: var(--muted);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 1.1px;
+    }
+    .prompt { fill: var(--green); font-size: 26px; font-weight: 650; }
+    .message { fill: var(--text); font-size: 26px; font-weight: 600; }
+    .cursor {
+      fill: var(--green);
+      animation: blink 0.8s steps(1, end) infinite;
+    }
+    .fallback { display: none; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .animated { display: none; }
+      .fallback { display: inline; }
+      .cursor { animation: none; }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="phrase-one"><rect x="56" y="54" width="0" height="36">
+      <animate attributeName="width" dur="18s" repeatCount="indefinite"
+        calcMode="linear"
+        values="0;340;340;0;0;0;0;0"
+        keyTimes="0;.167;.278;.361;.362;.999;1;1" />
+    </rect></clipPath>
+    <clipPath id="phrase-two"><rect x="56" y="54" width="0" height="36">
+      <animate attributeName="width" dur="18s" repeatCount="indefinite"
+        calcMode="linear"
+        values="0;0;178;178;0;0;0;0"
+        keyTimes="0;.361;.456;.567;.611;.612;.999;1" />
+    </rect></clipPath>
+    <clipPath id="phrase-three"><rect x="56" y="54" width="0" height="36">
+      <animate attributeName="width" dur="18s" repeatCount="indefinite"
+        calcMode="linear"
+        values="0;0;518;518;0;0"
+        keyTimes="0;.611;.861;.944;.999;1" />
+    </rect></clipPath>
+  </defs>
+
+  <rect class="canvas" width="860" height="112" rx="6" />
+  <rect class="topbar" x="1" y="1" width="858" height="31" rx="5" />
+  <rect class="frame" x=".5" y=".5" width="859" height="111" rx="6" />
+  <line class="divider" x1="1" y1="32.5" x2="859" y2="32.5" />
+
+  <circle cx="18" cy="16.5" r="3" fill="#f85149" />
+  <circle cx="30" cy="16.5" r="3" fill="#d29922" />
+  <circle cx="42" cy="16.5" r="3" fill="#3fb950" />
+  <text class="label" x="430" y="20" text-anchor="middle">PROFILE / INTRODUCTION</text>
+
+  <text class="prompt" x="26" y="82">&gt;</text>
+
+  <g class="animated">
+    <text class="message" x="56" y="82" opacity="0" clip-path="url(#phrase-one)">Welcome to my profile<animate
+      attributeName="opacity" dur="18s" repeatCount="indefinite"
+      calcMode="discrete" values="1;0;0" keyTimes="0;.362;1" /></text>
+    <text class="message" x="56" y="82" opacity="0" clip-path="url(#phrase-two)">I am Jasper<animate
+      attributeName="opacity" dur="18s" repeatCount="indefinite"
+      calcMode="discrete" values="0;1;0;0" keyTimes="0;.362;.612;1" /></text>
+    <text class="message" x="56" y="82" opacity="1" clip-path="url(#phrase-three)">Junior developer at GeoCat B.V.<animate
+      attributeName="opacity" dur="18s" repeatCount="indefinite"
+      calcMode="discrete" values="0;1;1" keyTimes="0;.612;1" /></text>
+
+    <rect class="cursor" y="59" width="3" height="29">
+      <animate attributeName="x" dur="18s" repeatCount="indefinite"
+        calcMode="linear"
+        values="56;396;396;56;56;234;234;56;56;574;574;56"
+        keyTimes="0;.167;.278;.361;.362;.456;.567;.611;.612;.861;.944;1" />
+    </rect>
+  </g>
+
+  <g class="fallback">
+    <text class="message" x="56" y="82">Junior developer at GeoCat B.V.</text>
+    <rect class="cursor" x="574" y="59" width="3" height="29" />
+  </g>
+</svg>
