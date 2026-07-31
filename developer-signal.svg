@@ -72,51 +72,51 @@
   <text class="subtitle" x="28" y="61">Software engineer @ GeoCat / Wageningen, NL</text>
   <circle class="legend-dot" cx="703" cy="31" r="3" />
   <text class="eyebrow mono" x="714" y="34">LIVE PUBLIC DATA</text>
-  <text class="subtitle mono" x="831" y="58" text-anchor="end">UPDATED 30 JUL 2026</text>
+  <text class="subtitle mono" x="831" y="58" text-anchor="end">UPDATED 31 JUL 2026</text>
   <line class="divider" x1="1" y1="78" x2="859" y2="78" />
 
   <text class="section-title mono" x="34" y="106">WEEKLY VELOCITY / LAST 26 WEEKS</text>
-  <text class="eyebrow mono" x="592" y="106" text-anchor="end">PEAK 109 / 20 Jul-26 Jul</text>
+  <text class="eyebrow mono" x="592" y="106" text-anchor="end">PEAK 125 / 27 Jul-31 Jul</text>
   <text class="axis mono" x="34" y="122">ONE BAR = ONE WEEK / HEIGHT = PUBLIC CONTRIBUTIONS</text>
   <g aria-label="Weekly public contribution totals for the last 26 weeks">
     <line class="grid" x1="34" y1="296.0" x2="592" y2="296.0" />
     <text class="axis" x="29" y="299.0" text-anchor="end">0</text>
     <line class="grid" x1="34" y1="229.0" x2="592" y2="229.0" />
-    <text class="axis" x="29" y="232.0" text-anchor="end">54</text>
+    <text class="axis" x="29" y="232.0" text-anchor="end">62</text>
     <line class="grid" x1="34" y1="162.0" x2="592" y2="162.0" />
-    <text class="axis" x="29" y="165.0" text-anchor="end">109</text>
-    <line class="average-line" x1="34" y1="278.0" x2="592" y2="278.0" />
-    <text class="axis average-label" x="588" y="273.0" text-anchor="end">12M AVG 14.6/WK</text>
+    <text class="axis" x="29" y="165.0" text-anchor="end">125</text>
+    <line class="average-line" x1="34" y1="279.2" x2="592" y2="279.2" />
+    <text class="axis average-label" x="588" y="274.2" text-anchor="end">12M AVG 15.7/WK</text>
     <rect class="bar level-zero" x="34.5" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-zero" x="56.3" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-zero" x="78.1" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-zero" x="99.9" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-zero" x="121.7" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="143.5" y="273.9" width="11.0" height="22.1" rx="2" />
-    <rect class="bar level-one" x="165.3" y="293.5" width="11.0" height="2.5" rx="2" />
-    <rect class="bar level-one" x="187.1" y="287.4" width="11.0" height="8.6" rx="2" />
+    <rect class="bar level-one" x="143.5" y="276.7" width="11.0" height="19.3" rx="2" />
+    <rect class="bar level-one" x="165.3" y="293.9" width="11.0" height="2.1" rx="2" />
+    <rect class="bar level-one" x="187.1" y="288.5" width="11.0" height="7.5" rx="2" />
     <rect class="bar level-zero" x="208.9" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-one" x="230.7" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="252.5" y="293.5" width="11.0" height="2.5" rx="2" />
+    <rect class="bar level-one" x="252.5" y="293.9" width="11.0" height="2.1" rx="2" />
     <rect class="bar level-one" x="274.3" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-zero" x="296.1" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="317.9" y="287.4" width="11.0" height="8.6" rx="2" />
+    <rect class="bar level-one" x="317.9" y="288.5" width="11.0" height="7.5" rx="2" />
     <rect class="bar level-one" x="339.7" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="361.5" y="284.9" width="11.0" height="11.1" rx="2" />
-    <rect class="bar level-three" x="383.3" y="205.0" width="11.0" height="91.0" rx="2" />
-    <rect class="bar level-four" x="405.1" y="169.4" width="11.0" height="126.6" rx="2" />
-    <rect class="bar level-one" x="426.9" y="276.3" width="11.0" height="19.7" rx="2" />
-    <rect class="bar level-two" x="448.7" y="253.0" width="11.0" height="43.0" rx="2" />
-    <rect class="bar level-two" x="470.5" y="237.0" width="11.0" height="59.0" rx="2" />
-    <rect class="bar level-four" x="492.3" y="171.8" width="11.0" height="124.2" rx="2" />
-    <rect class="bar level-four" x="514.1" y="180.4" width="11.0" height="115.6" rx="2" />
-    <rect class="bar level-three" x="535.9" y="217.3" width="11.0" height="78.7" rx="2" />
-    <rect class="bar level-four" x="557.7" y="162.0" width="11.0" height="134.0" rx="2" />
-    <rect class="bar level-three" x="579.5" y="212.4" width="11.0" height="83.6" rx="2" />
-    <path class="trajectory" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,294.0 L 127.2,294.0 L 149.0,273.9 L 170.8,293.5 L 192.6,287.4 L 214.4,294.0 L 236.2,294.0 L 258.0,293.5 L 279.8,294.0 L 301.6,294.0 L 323.4,287.4 L 345.2,294.0 L 367.0,284.9 L 388.8,205.0 L 410.6,169.4 L 432.4,276.3 L 454.2,253.0 L 476.0,237.0 L 497.8,171.8 L 519.6,180.4 L 541.4,217.3 L 563.2,162.0 L 585.0,212.4" />
-    <path class="signal-runner" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,294.0 L 127.2,294.0 L 149.0,273.9 L 170.8,293.5 L 192.6,287.4 L 214.4,294.0 L 236.2,294.0 L 258.0,293.5 L 279.8,294.0 L 301.6,294.0 L 323.4,287.4 L 345.2,294.0 L 367.0,284.9 L 388.8,205.0 L 410.6,169.4 L 432.4,276.3 L 454.2,253.0 L 476.0,237.0 L 497.8,171.8 L 519.6,180.4 L 541.4,217.3 L 563.2,162.0 L 585.0,212.4" />
-    <circle class="peak-dot" cx="563.2" cy="162.0" r="4" />
-    <line class="peak-guide" x1="563.2" y1="155.0" x2="563.2" y2="125" />
+    <rect class="bar level-one" x="361.5" y="286.4" width="11.0" height="9.6" rx="2" />
+    <rect class="bar level-three" x="383.3" y="216.7" width="11.0" height="79.3" rx="2" />
+    <rect class="bar level-four" x="405.1" y="185.6" width="11.0" height="110.4" rx="2" />
+    <rect class="bar level-one" x="426.9" y="278.8" width="11.0" height="17.2" rx="2" />
+    <rect class="bar level-two" x="448.7" y="258.5" width="11.0" height="37.5" rx="2" />
+    <rect class="bar level-two" x="470.5" y="244.5" width="11.0" height="51.5" rx="2" />
+    <rect class="bar level-four" x="492.3" y="187.7" width="11.0" height="108.3" rx="2" />
+    <rect class="bar level-four" x="514.1" y="195.2" width="11.0" height="100.8" rx="2" />
+    <rect class="bar level-three" x="535.9" y="227.4" width="11.0" height="68.6" rx="2" />
+    <rect class="bar level-four" x="557.7" y="179.2" width="11.0" height="116.8" rx="2" />
+    <rect class="bar level-four" x="579.5" y="162.0" width="11.0" height="134.0" rx="2" />
+    <path class="trajectory" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,294.0 L 127.2,294.0 L 149.0,276.7 L 170.8,293.9 L 192.6,288.5 L 214.4,294.0 L 236.2,294.0 L 258.0,293.9 L 279.8,294.0 L 301.6,294.0 L 323.4,288.5 L 345.2,294.0 L 367.0,286.4 L 388.8,216.7 L 410.6,185.6 L 432.4,278.8 L 454.2,258.5 L 476.0,244.5 L 497.8,187.7 L 519.6,195.2 L 541.4,227.4 L 563.2,179.2 L 585.0,162.0" />
+    <path class="signal-runner" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,294.0 L 127.2,294.0 L 149.0,276.7 L 170.8,293.9 L 192.6,288.5 L 214.4,294.0 L 236.2,294.0 L 258.0,293.9 L 279.8,294.0 L 301.6,294.0 L 323.4,288.5 L 345.2,294.0 L 367.0,286.4 L 388.8,216.7 L 410.6,185.6 L 432.4,278.8 L 454.2,258.5 L 476.0,244.5 L 497.8,187.7 L 519.6,195.2 L 541.4,227.4 L 563.2,179.2 L 585.0,162.0" />
+    <circle class="peak-dot" cx="585.0" cy="162.0" r="4" />
+    <line class="peak-guide" x1="585.0" y1="155.0" x2="585.0" y2="125" />
     <text class="axis month-label" x="40.0" y="318">FEB</text>
     <text class="axis month-label" x="127.2" y="318">MAR</text>
     <text class="axis month-label" x="236.2" y="318">APR</text>
@@ -127,24 +127,24 @@
 
   <line class="divider" x1="612" y1="94" x2="612" y2="306" />
   <text class="eyebrow mono" x="633" y="108">PUBLIC SIGNAL / 12 MONTHS</text>
-  <text class="big-number" x="630" y="160">760</text>
+  <text class="big-number" x="630" y="160">817</text>
   <text class="number-caption" x="632" y="178">contributions recorded by GitHub</text>
   <line class="divider" x1="632" y1="194" x2="831" y2="194" />
 
-  <text class="metric-value" x="632" y="230">65</text>
+  <text class="metric-value" x="632" y="230">67</text>
   <text class="metric-label mono" x="632" y="245">ACTIVE DAYS</text>
-  <text class="metric-value" x="744" y="230">10d</text>
+  <text class="metric-value" x="744" y="230">12d</text>
   <text class="metric-label mono" x="744" y="245">LONGEST STREAK</text>
-  <text class="metric-value" x="632" y="282">109</text>
+  <text class="metric-value" x="632" y="282">125</text>
   <text class="metric-label mono" x="632" y="297">26W PEAK</text>
-  <text class="metric-value" x="744" y="282">11.7</text>
+  <text class="metric-value" x="744" y="282">12.2</text>
   <text class="metric-label mono" x="744" y="297">AVG / ACTIVE DAY</text>
 
   <line class="divider" x1="1" y1="332" x2="859" y2="332" />
   <text class="eyebrow mono" x="28" y="356">28-DAY CHANGE</text>
-  <text class="momentum positive" x="28" y="397">+208%</text>
-  <text class="focus-line" x="122" y="378">422 contributions now</text>
-  <text class="focus-line" x="122" y="397">vs 137 in the prior 28 days</text>
+  <text class="momentum positive" x="28" y="397">+299%</text>
+  <text class="focus-line" x="122" y="378">479 contributions now</text>
+  <text class="focus-line" x="122" y="397">vs 120 in the prior 28 days</text>
 
   <line class="divider" x1="290" y1="350" x2="290" y2="407" />
   <text class="eyebrow mono" x="316" y="356">HOW TO READ</text>
