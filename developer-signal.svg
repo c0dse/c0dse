@@ -72,7 +72,7 @@
   <text class="subtitle" x="28" y="61">Software engineer @ GeoCat / Wageningen, NL</text>
   <circle class="legend-dot" cx="703" cy="31" r="3" />
   <text class="eyebrow mono" x="714" y="34">LIVE PUBLIC DATA</text>
-  <text class="subtitle mono" x="831" y="58" text-anchor="end">UPDATED 16 AUG 2026</text>
+  <text class="subtitle mono" x="831" y="58" text-anchor="end">UPDATED 17 AUG 2026</text>
   <line class="divider" x1="1" y1="78" x2="859" y2="78" />
 
   <text class="section-title mono" x="34" y="106">WEEKLY VELOCITY / LAST 26 WEEKS</text>
@@ -89,41 +89,40 @@
     <text class="axis average-label" x="588" y="272.6" text-anchor="end">12M AVG 17.7/WK</text>
     <rect class="bar level-zero" x="34.5" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-zero" x="56.3" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-zero" x="78.1" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="99.9" y="277.3" width="11.0" height="18.7" rx="2" />
-    <rect class="bar level-one" x="121.7" y="293.9" width="11.0" height="2.1" rx="2" />
-    <rect class="bar level-one" x="143.5" y="288.7" width="11.0" height="7.3" rx="2" />
-    <rect class="bar level-zero" x="165.3" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="187.1" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="208.9" y="293.9" width="11.0" height="2.1" rx="2" />
-    <rect class="bar level-one" x="230.7" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-zero" x="252.5" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="274.3" y="288.7" width="11.0" height="7.3" rx="2" />
-    <rect class="bar level-one" x="296.1" y="294.0" width="11.0" height="2.0" rx="2" />
-    <rect class="bar level-one" x="317.9" y="286.7" width="11.0" height="9.3" rx="2" />
-    <rect class="bar level-three" x="339.7" y="219.1" width="11.0" height="76.9" rx="2" />
-    <rect class="bar level-four" x="361.5" y="189.0" width="11.0" height="107.0" rx="2" />
-    <rect class="bar level-one" x="383.3" y="279.4" width="11.0" height="16.6" rx="2" />
-    <rect class="bar level-two" x="405.1" y="259.6" width="11.0" height="36.4" rx="2" />
-    <rect class="bar level-two" x="426.9" y="246.1" width="11.0" height="49.9" rx="2" />
-    <rect class="bar level-four" x="448.7" y="191.1" width="11.0" height="104.9" rx="2" />
-    <rect class="bar level-four" x="470.5" y="198.4" width="11.0" height="97.6" rx="2" />
-    <rect class="bar level-three" x="492.3" y="229.5" width="11.0" height="66.5" rx="2" />
-    <rect class="bar level-four" x="514.1" y="182.8" width="11.0" height="113.2" rx="2" />
-    <rect class="bar level-four" x="535.9" y="162.0" width="11.0" height="134.0" rx="2" />
-    <rect class="bar level-four" x="557.7" y="195.2" width="11.0" height="100.8" rx="2" />
-    <rect class="bar level-one" x="579.5" y="292.9" width="11.0" height="3.1" rx="2" />
-    <path class="trajectory" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,277.3 L 127.2,293.9 L 149.0,288.7 L 170.8,294.0 L 192.6,294.0 L 214.4,293.9 L 236.2,294.0 L 258.0,294.0 L 279.8,288.7 L 301.6,294.0 L 323.4,286.7 L 345.2,219.1 L 367.0,189.0 L 388.8,279.4 L 410.6,259.6 L 432.4,246.1 L 454.2,191.1 L 476.0,198.4 L 497.8,229.5 L 519.6,182.8 L 541.4,162.0 L 563.2,195.2 L 585.0,292.9" />
-    <path class="signal-runner" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,277.3 L 127.2,293.9 L 149.0,288.7 L 170.8,294.0 L 192.6,294.0 L 214.4,293.9 L 236.2,294.0 L 258.0,294.0 L 279.8,288.7 L 301.6,294.0 L 323.4,286.7 L 345.2,219.1 L 367.0,189.0 L 388.8,279.4 L 410.6,259.6 L 432.4,246.1 L 454.2,191.1 L 476.0,198.4 L 497.8,229.5 L 519.6,182.8 L 541.4,162.0 L 563.2,195.2 L 585.0,292.9" />
-    <circle class="peak-dot" cx="541.4" cy="162.0" r="4" />
-    <line class="peak-guide" x1="541.4" y1="155.0" x2="541.4" y2="125" />
-    <text class="axis month-label" x="40.0" y="318">FEB</text>
-    <text class="axis month-label" x="83.6" y="318">MAR</text>
-    <text class="axis month-label" x="192.6" y="318">APR</text>
-    <text class="axis month-label" x="279.8" y="318">MAY</text>
-    <text class="axis month-label" x="367.0" y="318">JUN</text>
-    <text class="axis month-label" x="476.0" y="318">JUL</text>
-    <text class="axis month-label" x="563.2" y="318">AUG</text>
+    <rect class="bar level-one" x="78.1" y="277.3" width="11.0" height="18.7" rx="2" />
+    <rect class="bar level-one" x="99.9" y="293.9" width="11.0" height="2.1" rx="2" />
+    <rect class="bar level-one" x="121.7" y="288.7" width="11.0" height="7.3" rx="2" />
+    <rect class="bar level-zero" x="143.5" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="165.3" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="187.1" y="293.9" width="11.0" height="2.1" rx="2" />
+    <rect class="bar level-one" x="208.9" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-zero" x="230.7" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="252.5" y="288.7" width="11.0" height="7.3" rx="2" />
+    <rect class="bar level-one" x="274.3" y="294.0" width="11.0" height="2.0" rx="2" />
+    <rect class="bar level-one" x="296.1" y="286.7" width="11.0" height="9.3" rx="2" />
+    <rect class="bar level-three" x="317.9" y="219.1" width="11.0" height="76.9" rx="2" />
+    <rect class="bar level-four" x="339.7" y="189.0" width="11.0" height="107.0" rx="2" />
+    <rect class="bar level-one" x="361.5" y="279.4" width="11.0" height="16.6" rx="2" />
+    <rect class="bar level-two" x="383.3" y="259.6" width="11.0" height="36.4" rx="2" />
+    <rect class="bar level-two" x="405.1" y="246.1" width="11.0" height="49.9" rx="2" />
+    <rect class="bar level-four" x="426.9" y="191.1" width="11.0" height="104.9" rx="2" />
+    <rect class="bar level-four" x="448.7" y="198.4" width="11.0" height="97.6" rx="2" />
+    <rect class="bar level-three" x="470.5" y="229.5" width="11.0" height="66.5" rx="2" />
+    <rect class="bar level-four" x="492.3" y="182.8" width="11.0" height="113.2" rx="2" />
+    <rect class="bar level-four" x="514.1" y="162.0" width="11.0" height="134.0" rx="2" />
+    <rect class="bar level-four" x="535.9" y="195.2" width="11.0" height="100.8" rx="2" />
+    <rect class="bar level-one" x="557.7" y="292.9" width="11.0" height="3.1" rx="2" />
+    <rect class="bar level-zero" x="579.5" y="294.0" width="11.0" height="2.0" rx="2" />
+    <path class="trajectory" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,277.3 L 105.4,293.9 L 127.2,288.7 L 149.0,294.0 L 170.8,294.0 L 192.6,293.9 L 214.4,294.0 L 236.2,294.0 L 258.0,288.7 L 279.8,294.0 L 301.6,286.7 L 323.4,219.1 L 345.2,189.0 L 367.0,279.4 L 388.8,259.6 L 410.6,246.1 L 432.4,191.1 L 454.2,198.4 L 476.0,229.5 L 497.8,182.8 L 519.6,162.0 L 541.4,195.2 L 563.2,292.9 L 585.0,294.0" />
+    <path class="signal-runner" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,277.3 L 105.4,293.9 L 127.2,288.7 L 149.0,294.0 L 170.8,294.0 L 192.6,293.9 L 214.4,294.0 L 236.2,294.0 L 258.0,288.7 L 279.8,294.0 L 301.6,286.7 L 323.4,219.1 L 345.2,189.0 L 367.0,279.4 L 388.8,259.6 L 410.6,246.1 L 432.4,191.1 L 454.2,198.4 L 476.0,229.5 L 497.8,182.8 L 519.6,162.0 L 541.4,195.2 L 563.2,292.9 L 585.0,294.0" />
+    <circle class="peak-dot" cx="519.6" cy="162.0" r="4" />
+    <line class="peak-guide" x1="519.6" y1="155.0" x2="519.6" y2="125" />
+    <text class="axis month-label" x="61.8" y="318">MAR</text>
+    <text class="axis month-label" x="170.8" y="318">APR</text>
+    <text class="axis month-label" x="258.0" y="318">MAY</text>
+    <text class="axis month-label" x="345.2" y="318">JUN</text>
+    <text class="axis month-label" x="454.2" y="318">JUL</text>
+    <text class="axis month-label" x="541.4" y="318">AUG</text>
   </g>
 
   <line class="divider" x1="612" y1="94" x2="612" y2="306" />
@@ -143,9 +142,9 @@
 
   <line class="divider" x1="1" y1="332" x2="859" y2="332" />
   <text class="eyebrow mono" x="28" y="356">28-DAY CHANGE</text>
-  <text class="momentum positive" x="28" y="397">+10%</text>
-  <text class="focus-line" x="122" y="378">338 contributions now</text>
-  <text class="focus-line" x="122" y="397">vs 307 in the prior 28 days</text>
+  <text class="momentum positive" x="28" y="397">+1%</text>
+  <text class="focus-line" x="122" y="378">320 contributions now</text>
+  <text class="focus-line" x="122" y="397">vs 318 in the prior 28 days</text>
 
   <line class="divider" x1="290" y1="350" x2="290" y2="407" />
   <text class="eyebrow mono" x="316" y="356">HOW TO READ</text>
