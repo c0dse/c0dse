@@ -72,7 +72,7 @@
   <text class="subtitle" x="28" y="61">Software engineer @ GeoCat / Wageningen, NL</text>
   <circle class="legend-dot" cx="703" cy="31" r="3" />
   <text class="eyebrow mono" x="714" y="34">LIVE PUBLIC DATA</text>
-  <text class="subtitle mono" x="831" y="58" text-anchor="end">UPDATED 5 OCT 2026</text>
+  <text class="subtitle mono" x="831" y="58" text-anchor="end">UPDATED 6 OCT 2026</text>
   <line class="divider" x1="1" y1="78" x2="859" y2="78" />
 
   <text class="section-title mono" x="34" y="106">WEEKLY VELOCITY / LAST 26 WEEKS</text>
@@ -85,8 +85,8 @@
     <text class="axis" x="29" y="232.0" text-anchor="end">88</text>
     <line class="grid" x1="34" y1="162.0" x2="592" y2="162.0" />
     <text class="axis" x="29" y="165.0" text-anchor="end">175</text>
-    <line class="average-line" x1="34" y1="274.3" x2="592" y2="274.3" />
-    <text class="axis average-label" x="588" y="269.3" text-anchor="end">12M AVG 28.4/WK</text>
+    <line class="average-line" x1="34" y1="274.2" x2="592" y2="274.2" />
+    <text class="axis average-label" x="588" y="269.2" text-anchor="end">12M AVG 28.4/WK</text>
     <rect class="bar level-one" x="34.5" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-one" x="56.3" y="294.0" width="11.0" height="2.0" rx="2" />
     <rect class="bar level-zero" x="78.1" y="294.0" width="11.0" height="2.0" rx="2" />
@@ -112,9 +112,9 @@
     <rect class="bar level-three" x="514.1" y="227.9" width="11.0" height="68.1" rx="2" />
     <rect class="bar level-two" x="535.9" y="266.1" width="11.0" height="29.9" rx="2" />
     <rect class="bar level-one" x="557.7" y="288.3" width="11.0" height="7.7" rx="2" />
-    <rect class="bar level-zero" x="579.5" y="294.0" width="11.0" height="2.0" rx="2" />
-    <path class="trajectory" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,290.6 L 127.2,294.0 L 149.0,289.1 L 170.8,239.3 L 192.6,217.1 L 214.4,283.7 L 236.2,269.2 L 258.0,259.2 L 279.8,218.7 L 301.6,224.0 L 323.4,247.0 L 345.2,212.5 L 367.0,197.2 L 388.8,221.7 L 410.6,293.7 L 432.4,244.7 L 454.2,286.0 L 476.0,172.7 L 497.8,162.0 L 519.6,227.9 L 541.4,266.1 L 563.2,288.3 L 585.0,294.0" />
-    <path class="signal-runner" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,290.6 L 127.2,294.0 L 149.0,289.1 L 170.8,239.3 L 192.6,217.1 L 214.4,283.7 L 236.2,269.2 L 258.0,259.2 L 279.8,218.7 L 301.6,224.0 L 323.4,247.0 L 345.2,212.5 L 367.0,197.2 L 388.8,221.7 L 410.6,293.7 L 432.4,244.7 L 454.2,286.0 L 476.0,172.7 L 497.8,162.0 L 519.6,227.9 L 541.4,266.1 L 563.2,288.3 L 585.0,294.0" />
+    <rect class="bar level-one" x="579.5" y="293.7" width="11.0" height="2.3" rx="2" />
+    <path class="trajectory" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,290.6 L 127.2,294.0 L 149.0,289.1 L 170.8,239.3 L 192.6,217.1 L 214.4,283.7 L 236.2,269.2 L 258.0,259.2 L 279.8,218.7 L 301.6,224.0 L 323.4,247.0 L 345.2,212.5 L 367.0,197.2 L 388.8,221.7 L 410.6,293.7 L 432.4,244.7 L 454.2,286.0 L 476.0,172.7 L 497.8,162.0 L 519.6,227.9 L 541.4,266.1 L 563.2,288.3 L 585.0,293.7" />
+    <path class="signal-runner" pathLength="1" d="M 40.0,294.0 L 61.8,294.0 L 83.6,294.0 L 105.4,290.6 L 127.2,294.0 L 149.0,289.1 L 170.8,239.3 L 192.6,217.1 L 214.4,283.7 L 236.2,269.2 L 258.0,259.2 L 279.8,218.7 L 301.6,224.0 L 323.4,247.0 L 345.2,212.5 L 367.0,197.2 L 388.8,221.7 L 410.6,293.7 L 432.4,244.7 L 454.2,286.0 L 476.0,172.7 L 497.8,162.0 L 519.6,227.9 L 541.4,266.1 L 563.2,288.3 L 585.0,293.7" />
     <circle class="peak-dot" cx="497.8" cy="162.0" r="4" />
     <line class="peak-guide" x1="497.8" y1="155.0" x2="497.8" y2="125" />
     <text class="axis month-label" x="40.0" y="318">APR</text>
@@ -128,24 +128,24 @@
 
   <line class="divider" x1="612" y1="94" x2="612" y2="306" />
   <text class="eyebrow mono" x="633" y="108">PUBLIC SIGNAL / 12 MONTHS</text>
-  <text class="big-number" x="630" y="160">1,475</text>
+  <text class="big-number" x="630" y="160">1,478</text>
   <text class="number-caption" x="632" y="178">contributions recorded by GitHub</text>
   <line class="divider" x1="632" y1="194" x2="831" y2="194" />
 
-  <text class="metric-value" x="632" y="230">102</text>
+  <text class="metric-value" x="632" y="230">103</text>
   <text class="metric-label mono" x="632" y="245">ACTIVE DAYS</text>
   <text class="metric-value" x="744" y="230">12d</text>
   <text class="metric-label mono" x="744" y="245">LONGEST STREAK</text>
   <text class="metric-value" x="632" y="282">175</text>
   <text class="metric-label mono" x="632" y="297">26W PEAK</text>
-  <text class="metric-value" x="744" y="282">14.5</text>
+  <text class="metric-value" x="744" y="282">14.3</text>
   <text class="metric-label mono" x="744" y="297">AVG / ACTIVE DAY</text>
 
   <line class="divider" x1="1" y1="332" x2="859" y2="332" />
   <text class="eyebrow mono" x="28" y="356">28-DAY CHANGE</text>
-  <text class="momentum neutral" x="28" y="397">-2%</text>
-  <text class="focus-line" x="122" y="378">276 contributions now</text>
-  <text class="focus-line" x="122" y="397">vs 281 in the prior 28 days</text>
+  <text class="momentum neutral" x="28" y="397">-30%</text>
+  <text class="focus-line" x="122" y="378">229 contributions now</text>
+  <text class="focus-line" x="122" y="397">vs 328 in the prior 28 days</text>
 
   <line class="divider" x1="290" y1="350" x2="290" y2="407" />
   <text class="eyebrow mono" x="316" y="356">HOW TO READ</text>
